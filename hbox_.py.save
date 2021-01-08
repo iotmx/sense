@@ -1,0 +1,192 @@
+#!/usr/bin/env python3
+
+#by Guillermo Ramirez-Prado
+
+import schedule
+import time
+import datetime
+import paho.mqtt.publish as publish
+import json
+import serial
+import RPi.GPIO as GPIO
+from hbox_settings import *
+from uartport import *
+import urllib.request
+import board
+from busio import I2C
+import adafruit_bme680
+import os
+
+# Set serial port
+ser = serial.Serial(
+   port = ttyserialport,
+   baudrate = 9600,
+   parity = serial.PARITY_NONE,
+   stopbits = serial.STOPBITS_ONE,
+   bytesize = serial.EIGHTBITS,
+   timeout=1.5
+)
+
+GPIO.setwarnings(False)
+
+GPIO.setmode(GPIO.BCM)
+GPIO.cleanup()
+GPIO.setup(conPin, GPIO.OUT)
+GPIO.setup(errPin, GPIO.OUT)
+GPIO.setup(ackPin, GPIO.OUT)
+GPIO.setup(mux_s0,   GPIO.OUT)
+GPIO.setup(mux_s1,   GPIO.OUT)
+
+GPIO.output(conPin, GPIO.LOW)
+GPIO.output(errPin, GPIO.LOW)
+GPIO.output(ackPin, GPIO.LOW)
+
+GPIO.output(mux_s0,   1)
+GPIO.output(mux_s1,   0)
+
+# BME680
+if using_bme680:
+   # Create library object using our Bus I2C port
+   i2c = I2C(board.SCL, board.SDA)
+   bme680 = adafruit_bme680.Adafruit_BME680_I2C(i2c, debug=False)
+
+   # change this to match the location's pressure (hPa) at sea level
+   bme680.sea_level_pressure = 1024
+
+   # You will usually have to add an offset to account for the temperature of
+   # the sensor. This is usually around 5 degrees but varies by use. Use a
+   # separate temperature sensor to calibrate this one.
+   temperature_offset = -5
+
+def get_cpu_temp():
+    # Obtains the current value of the CPU temperature.
+    # :returns: Current value of the CPU temperature if successful, zero value otherwise.
+    # :rtype: float
+    # Initialize the result.
+    result = 0.0
+    # The first line in this file holds the CPU temperature as an integer times 1000.
+    # Read the first line and remove the newline character at the end of the string.
+    if os.path.isfile('/sys/class/thermal/thermal_zone0/temp'):
+        with open('/sys/class/thermal/thermal_zone0/temp') as f:
+            line = f.readline().strip()
+        # Test if the string is an integer as expected.
+        if line.isdigit():
+            # Convert the string with the CPU temperature to a float in degrees Celsius.
+            result = float(line) / 1000
+    # Give the result back to the caller.
+    return result
+
+def err_blink():
+    GPIO.output(errPin, GPIO.HIGH)
+    time.sleep(0.1)
+    GPIO.output(errPin, GPIO.LOW)
+    time.sleep(0.1)
+    GPIO.output(errPin, GPIO.HIGH)
+    time.sleep(0.1)
+    GPIO.output(errPin, GPIO.LOW)
+
+def is_internet_on():
+   try:
+      urllib.request.urlopen('http://216.58.200.110', timeout = 2)
+      GPIO.output(conPin, GPIO.HIGH)
+   except:
+      GPIO.output(conPin, GPIO.LOW)
+
+def bme680_():
+   if using_bme680:
+      try:
+         ts = time.time()*1000
+         currTemperature = bme680.temperature
+         currPressure    = bme680.pressure
+         currHumidity    = bme680.humidity
+         currAltitude    = bme680.altitude
+         currGas         = bme680.gas
+
+         print("Temperature: {0:0.2f} deg C".format(currTemperature), "Pressure: {0:0.2f} hPa".format(currPressure), "Humidity: {0:0.2f} %".format(currHumidity), "Gas: {} ohm".format(currGas), "Altitude = {0:02f} meters".format(currAltitude))
+
+         payload = [("bme/temperature", json.dumps({"currName" : "temperature", "currBox" : currBox, "currValue" : currTemperature, "currTime" : ts}), 0, False),
+                    (   "bme/pressure", json.dumps({"currName" :    "pressure", "currBox" : currBox, "currValue" :    currPressure, "currTime" : ts}), 0, False),
+                    (   "bme/altitude", json.dumps({"currName" :    "altitude", "currBox" : currBox, "currValue" :    currAltitude, "currTime" : ts}), 0, False),
+                    (   "bme/gas",      json.dumps({"currName" :         "gas", "currBox" : currBox, "currValue" :    currGas, "currTime" : ts}), 0, False),
+                    (   "bme/humidity", json.dumps({"currName" :    "humidity", "currBox" : currBox, 'currValue' :    currHumidity, 'currTime' : ts}), 0, False)]
+         publish.multiple(payload, hostname="localhost")
+
+      except IOError:
+         err_blink()
+         print("Error")
+
+def hpma_():
+   if using_hpma:
+      if ser.isOpen():
+         ser.close()
+      ser.open()
+      time.sleep(0.1)
+      ts = time.time()*1000
+      data=ser.read(32)
+      time.sleep(0.1)
+      try:
+         if data[0] == 66 and data[1] == 77:
+            suma = 0
+            for a in range(30):
+               suma += data[a]
+            if suma == data[30]*256+data[31]:
+               PM25 = int(data[6]*256+data[7])
+               PM10 = int((data[8]*256+data[9])/0.75)
+               PM25 = m25 * PM25 + b25
+               PM10 = m10 * PM10 + b10
+               print('PM2.5: {} ug/m3'.format(PM25))
+               print('PM10 : {} ug/m3'.format(PM10))
+
+               try:
+                  payload = [("hpma/pm25", json.dumps({"currName" : "pm25", "currBox" : currBox, "currValue" : PM25, "currTime" : ts}), 0, False),
+                             ("hpma/pm10", json.dumps({"currName" : "pm10", "currBox" : currBox, "currValue" : PM10, "currTime" : ts}), 0, False)]
+                  publish.multiple(payload, hostname="localhost")
+               except IOError:
+                  err_blink()
+                  print("Error")
+
+            else:
+               print("no data")
+         else:
+            print("no datax")
+      except Exception as ex:
+         err_blink()
+         print(ex)
+      finally:
+         ser.close()
+
+def hcho_():
+   if using_hcho:
+      try:
+         ts = time.time()*1000
+         x = ser.readline()
+         print(x)
+         # Is Gas name CH2O
+         if x[1]=='\x17':
+            ppb = float(ord(x[4])<<8 | ord(x[5]))
+            ppm = float(ppb/1000)
+            currHCHO = ppm
+            try:
+               payload = [("formaldehyde", json.dumps({"currName" : "formaldehyde", "currBox" : currBox, "currValue" : currHCHO, "currTime" : ts}), 0, False)]
+               publish.multiple(payload, hostname="localhost")
+            except IOError:
+               err_blink()
+               print("Error")
+
+            print("HCHO: {0:0.2f} ppm".format(currHCHO)) #Sensor resolution 0.01
+
+      except IOError:
+         err_blink()
+         print ("Error")
+      except:
+         err_blink()
+         pass
+
+schedule.every(15).seconds.do(is_internet_on)
+schedule.every(st_bme680).minute.at(":00").do(bme680_)
+schedule.every(st_hcho).minute.at(":00").do(hcho_)
+schedule.every(st_hpma).minute.at(":00").do(hpma_)
+
+while True:
+   schedule.run_pending()
+   time.sleep(2)  #number of seconds, can be a float
