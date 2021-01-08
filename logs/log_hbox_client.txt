@@ -51631,3 +51631,2152 @@ b'{"currValue": 1001.49, "currName": "bsec_pressure", "currTime": 1610078412397.
 <Response [200]>
 {'result':'Records inserted successfully.'}
 bsec/gas 0 b'{"currValue": 145121, "currName": "bsec_gas", "currTime": 1610078412397.0974, "currBox": 201}'
+b'{"currValue": 145121, "currName": "bsec_gas", "currTime": 1610078412397.0974, "currBox": 201}'
+{'currTime': 1610078412397.0974, 'currValue': 145121, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 39.37, "currName": "bsec_iaq_static", "currTime": 1610078412397.0974, "currBox": 201}'
+b'{"currValue": 39.37, "currName": "bsec_iaq_static", "currTime": 1610078412397.0974, "currBox": 201}'
+{'currTime': 1610078412397.0974, 'currValue': 39.37, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 557.47, "currName": "bsec_CO2e", "currTime": 1610078412397.0974, "currBox": 201}'
+b'{"currValue": 557.47, "currName": "bsec_CO2e", "currTime": 1610078412397.0974, "currBox": 201}'
+{'currTime': 1610078412397.0974, 'currValue': 557.47, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.62, "currName": "bsec_VOCe", "currTime": 1610078412397.0974, "currBox": 201}'
+b'{"currValue": 0.62, "currName": "bsec_VOCe", "currTime": 1610078412397.0974, "currBox": 201}'
+{'currTime': 1610078412397.0974, 'currValue': 0.62, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 50.4, "currName": "bsec_iaq", "currTime": 1610078472390.1904, "currBox": 201}'
+b'{"currValue": 50.4, "currName": "bsec_iaq", "currTime": 1610078472390.1904, "currBox": 201}'
+{'currTime': 1610078472390.1904, 'currValue': 50.4, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.05, "currName": "bsec_temperature", "currTime": 1610078472390.1904, "currBox": 201}'
+b'{"currValue": 30.05, "currName": "bsec_temperature", "currTime": 1610078472390.1904, "currBox": 201}'
+{'currTime': 1610078472390.1904, 'currValue': 30.05, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 39.05, "currName": "bsec_humidity", "currTime": 1610078472390.1904, "currBox": 201}'
+b'{"currValue": 39.05, "currName": "bsec_humidity", "currTime": 1610078472390.1904, "currBox": 201}'
+{'currTime': 1610078472390.1904, 'currValue': 39.05, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.49, "currName": "bsec_pressure", "currTime": 1610078472390.1904, "currBox": 201}'
+b'{"currValue": 1001.49, "currName": "bsec_pressure", "currTime": 1610078472390.1904, "currBox": 201}'
+{'currTime': 1610078472390.1904, 'currValue': 1001.49, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 144889, "currName": "bsec_gas", "currTime": 1610078472390.1904, "currBox": 201}'
+b'{"currValue": 144889, "currName": "bsec_gas", "currTime": 1610078472390.1904, "currBox": 201}'
+{'currTime': 1610078472390.1904, 'currValue': 144889, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 40.22, "currName": "bsec_iaq_static", "currTime": 1610078472390.1904, "currBox": 201}'
+b'{"currValue": 40.22, "currName": "bsec_iaq_static", "currTime": 1610078472390.1904, "currBox": 201}'
+{'currTime': 1610078472390.1904, 'currValue': 40.22, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 560.87, "currName": "bsec_CO2e", "currTime": 1610078472390.1904, "currBox": 201}'
+b'{"currValue": 560.87, "currName": "bsec_CO2e", "currTime": 1610078472390.1904, "currBox": 201}'
+{'currTime': 1610078472390.1904, 'currValue': 560.87, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.63, "currName": "bsec_VOCe", "currTime": 1610078472390.1904, "currBox": 201}'
+b'{"currValue": 0.63, "currName": "bsec_VOCe", "currTime": 1610078472390.1904, "currBox": 201}'
+{'currTime': 1610078472390.1904, 'currValue': 0.63, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 50.6, "currName": "bsec_iaq", "currTime": 1610078532386.3218, "currBox": 201}'
+b'{"currValue": 50.6, "currName": "bsec_iaq", "currTime": 1610078532386.3218, "currBox": 201}'
+{'currTime': 1610078532386.3218, 'currValue': 50.6, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.06, "currName": "bsec_temperature", "currTime": 1610078532386.3218, "currBox": 201}'
+b'{"currValue": 30.06, "currName": "bsec_temperature", "currTime": 1610078532386.3218, "currBox": 201}'
+{'currTime': 1610078532386.3218, 'currValue': 30.06, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 39.05, "currName": "bsec_humidity", "currTime": 1610078532386.3218, "currBox": 201}'
+b'{"currValue": 39.05, "currName": "bsec_humidity", "currTime": 1610078532386.3218, "currBox": 201}'
+{'currTime': 1610078532386.3218, 'currValue': 39.05, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.5, "currName": "bsec_pressure", "currTime": 1610078532386.3218, "currBox": 201}'
+b'{"currValue": 1001.5, "currName": "bsec_pressure", "currTime": 1610078532386.3218, "currBox": 201}'
+{'currTime': 1610078532386.3218, 'currValue': 1001.5, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 144864, "currName": "bsec_gas", "currTime": 1610078532386.3218, "currBox": 201}'
+b'{"currValue": 144864, "currName": "bsec_gas", "currTime": 1610078532386.3218, "currBox": 201}'
+{'currTime': 1610078532386.3218, 'currValue': 144864, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 40.34, "currName": "bsec_iaq_static", "currTime": 1610078532386.3218, "currBox": 201}'
+b'{"currValue": 40.34, "currName": "bsec_iaq_static", "currTime": 1610078532386.3218, "currBox": 201}'
+{'currTime': 1610078532386.3218, 'currValue': 40.34, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 561.35, "currName": "bsec_CO2e", "currTime": 1610078532386.3218, "currBox": 201}'
+b'{"currValue": 561.35, "currName": "bsec_CO2e", "currTime": 1610078532386.3218, "currBox": 201}'
+{'currTime': 1610078532386.3218, 'currValue': 561.35, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.63, "currName": "bsec_VOCe", "currTime": 1610078532386.3218, "currBox": 201}'
+b'{"currValue": 0.63, "currName": "bsec_VOCe", "currTime": 1610078532386.3218, "currBox": 201}'
+{'currTime': 1610078532386.3218, 'currValue': 0.63, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 50.3, "currName": "bsec_iaq", "currTime": 1610078592381.8896, "currBox": 201}'
+b'{"currValue": 50.3, "currName": "bsec_iaq", "currTime": 1610078592381.8896, "currBox": 201}'
+{'currTime': 1610078592381.8896, 'currValue': 50.3, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.06, "currName": "bsec_temperature", "currTime": 1610078592381.8896, "currBox": 201}'
+b'{"currValue": 30.06, "currName": "bsec_temperature", "currTime": 1610078592381.8896, "currBox": 201}'
+{'currTime': 1610078592381.8896, 'currValue': 30.06, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 39.05, "currName": "bsec_humidity", "currTime": 1610078592381.8896, "currBox": 201}'
+b'{"currValue": 39.05, "currName": "bsec_humidity", "currTime": 1610078592381.8896, "currBox": 201}'
+{'currTime': 1610078592381.8896, 'currValue': 39.05, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610078592381.8896, "currBox": 201}'
+b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610078592381.8896, "currBox": 201}'
+{'currTime': 1610078592381.8896, 'currValue': 1001.51, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 144942, "currName": "bsec_gas", "currTime": 1610078592381.8896, "currBox": 201}'
+b'{"currValue": 144942, "currName": "bsec_gas", "currTime": 1610078592381.8896, "currBox": 201}'
+{'currTime': 1610078592381.8896, 'currValue': 144942, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 40.16, "currName": "bsec_iaq_static", "currTime": 1610078592381.8896, "currBox": 201}'
+b'{"currValue": 40.16, "currName": "bsec_iaq_static", "currTime": 1610078592381.8896, "currBox": 201}'
+{'currTime': 1610078592381.8896, 'currValue': 40.16, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 560.63, "currName": "bsec_CO2e", "currTime": 1610078592381.8896, "currBox": 201}'
+b'{"currValue": 560.63, "currName": "bsec_CO2e", "currTime": 1610078592381.8896, "currBox": 201}'
+{'currTime': 1610078592381.8896, 'currValue': 560.63, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.63, "currName": "bsec_VOCe", "currTime": 1610078592381.8896, "currBox": 201}'
+b'{"currValue": 0.63, "currName": "bsec_VOCe", "currTime": 1610078592381.8896, "currBox": 201}'
+{'currTime': 1610078592381.8896, 'currValue': 0.63, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 47.5, "currName": "bsec_iaq", "currTime": 1610078652377.333, "currBox": 201}'
+b'{"currValue": 47.5, "currName": "bsec_iaq", "currTime": 1610078652377.333, "currBox": 201}'
+{'currTime': 1610078652377.333, 'currValue': 47.5, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610078652377.333, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610078652377.333, "currBox": 201}'
+{'currTime': 1610078652377.333, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 39.01, "currName": "bsec_humidity", "currTime": 1610078652377.333, "currBox": 201}'
+b'{"currValue": 39.01, "currName": "bsec_humidity", "currTime": 1610078652377.333, "currBox": 201}'
+{'currTime': 1610078652377.333, 'currValue': 39.01, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610078652377.333, "currBox": 201}'
+b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610078652377.333, "currBox": 201}'
+{'currTime': 1610078652377.333, 'currValue': 1001.51, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 145523, "currName": "bsec_gas", "currTime": 1610078652377.333, "currBox": 201}'
+b'{"currValue": 145523, "currName": "bsec_gas", "currTime": 1610078652377.333, "currBox": 201}'
+{'currTime': 1610078652377.333, 'currValue': 145523, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 38.43, "currName": "bsec_iaq_static", "currTime": 1610078652377.333, "currBox": 201}'
+b'{"currValue": 38.43, "currName": "bsec_iaq_static", "currTime": 1610078652377.333, "currBox": 201}'
+{'currTime': 1610078652377.333, 'currValue': 38.43, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 553.73, "currName": "bsec_CO2e", "currTime": 1610078652377.333, "currBox": 201}'
+b'{"currValue": 553.73, "currName": "bsec_CO2e", "currTime": 1610078652377.333, "currBox": 201}'
+{'currTime': 1610078652377.333, 'currValue': 553.73, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.61, "currName": "bsec_VOCe", "currTime": 1610078652377.333, "currBox": 201}'
+b'{"currValue": 0.61, "currName": "bsec_VOCe", "currTime": 1610078652377.333, "currBox": 201}'
+{'currTime': 1610078652377.333, 'currValue': 0.61, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 46.4, "currName": "bsec_iaq", "currTime": 1610078712370.6228, "currBox": 201}'
+b'{"currValue": 46.4, "currName": "bsec_iaq", "currTime": 1610078712370.6228, "currBox": 201}'
+{'currTime': 1610078712370.6228, 'currValue': 46.4, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610078712370.6228, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610078712370.6228, "currBox": 201}'
+{'currTime': 1610078712370.6228, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.97, "currName": "bsec_humidity", "currTime": 1610078712370.6228, "currBox": 201}'
+b'{"currValue": 38.97, "currName": "bsec_humidity", "currTime": 1610078712370.6228, "currBox": 201}'
+{'currTime': 1610078712370.6228, 'currValue': 38.97, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.49, "currName": "bsec_pressure", "currTime": 1610078712370.6228, "currBox": 201}'
+b'{"currValue": 1001.49, "currName": "bsec_pressure", "currTime": 1610078712370.6228, "currBox": 201}'
+{'currTime': 1610078712370.6228, 'currValue': 1001.49, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 145713, "currName": "bsec_gas", "currTime": 1610078712370.6228, "currBox": 201}'
+b'{"currValue": 145713, "currName": "bsec_gas", "currTime": 1610078712370.6228, "currBox": 201}'
+{'currTime': 1610078712370.6228, 'currValue': 145713, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 37.8, "currName": "bsec_iaq_static", "currTime": 1610078712370.6228, "currBox": 201}'
+b'{"currValue": 37.8, "currName": "bsec_iaq_static", "currTime": 1610078712370.6228, "currBox": 201}'
+{'currTime': 1610078712370.6228, 'currValue': 37.8, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 551.21, "currName": "bsec_CO2e", "currTime": 1610078712370.6228, "currBox": 201}'
+b'{"currValue": 551.21, "currName": "bsec_CO2e", "currTime": 1610078712370.6228, "currBox": 201}'
+{'currTime': 1610078712370.6228, 'currValue': 551.21, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.61, "currName": "bsec_VOCe", "currTime": 1610078712370.6228, "currBox": 201}'
+b'{"currValue": 0.61, "currName": "bsec_VOCe", "currTime": 1610078712370.6228, "currBox": 201}'
+{'currTime': 1610078712370.6228, 'currValue': 0.61, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 43.8, "currName": "bsec_iaq", "currTime": 1610078772368.3596, "currBox": 201}'
+b'{"currValue": 43.8, "currName": "bsec_iaq", "currTime": 1610078772368.3596, "currBox": 201}'
+{'currTime': 1610078772368.3596, 'currValue': 43.8, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610078772368.3596, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610078772368.3596, "currBox": 201}'
+{'currTime': 1610078772368.3596, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.91, "currName": "bsec_humidity", "currTime": 1610078772368.3596, "currBox": 201}'
+b'{"currValue": 38.91, "currName": "bsec_humidity", "currTime": 1610078772368.3596, "currBox": 201}'
+{'currTime': 1610078772368.3596, 'currValue': 38.91, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.5, "currName": "bsec_pressure", "currTime": 1610078772368.3596, "currBox": 201}'
+b'{"currValue": 1001.5, "currName": "bsec_pressure", "currTime": 1610078772368.3596, "currBox": 201}'
+{'currTime': 1610078772368.3596, 'currValue': 1001.5, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 146267, "currName": "bsec_gas", "currTime": 1610078772368.3596, "currBox": 201}'
+b'{"currValue": 146267, "currName": "bsec_gas", "currTime": 1610078772368.3596, "currBox": 201}'
+{'currTime': 1610078772368.3596, 'currValue': 146267, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 36.21, "currName": "bsec_iaq_static", "currTime": 1610078772368.3596, "currBox": 201}'
+b'{"currValue": 36.21, "currName": "bsec_iaq_static", "currTime": 1610078772368.3596, "currBox": 201}'
+{'currTime': 1610078772368.3596, 'currValue': 36.21, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 544.85, "currName": "bsec_CO2e", "currTime": 1610078772368.3596, "currBox": 201}'
+b'{"currValue": 544.85, "currName": "bsec_CO2e", "currTime": 1610078772368.3596, "currBox": 201}'
+{'currTime': 1610078772368.3596, 'currValue': 544.85, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.59, "currName": "bsec_VOCe", "currTime": 1610078772368.3596, "currBox": 201}'
+b'{"currValue": 0.59, "currName": "bsec_VOCe", "currTime": 1610078772368.3596, "currBox": 201}'
+{'currTime': 1610078772368.3596, 'currValue': 0.59, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 40.2, "currName": "bsec_iaq", "currTime": 1610078832363.3586, "currBox": 201}'
+b'{"currValue": 40.2, "currName": "bsec_iaq", "currTime": 1610078832363.3586, "currBox": 201}'
+{'currTime': 1610078832363.3586, 'currValue': 40.2, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610078832363.3586, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610078832363.3586, "currBox": 201}'
+{'currTime': 1610078832363.3586, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.8, "currName": "bsec_humidity", "currTime": 1610078832363.3586, "currBox": 201}'
+b'{"currValue": 38.8, "currName": "bsec_humidity", "currTime": 1610078832363.3586, "currBox": 201}'
+{'currTime': 1610078832363.3586, 'currValue': 38.8, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.53, "currName": "bsec_pressure", "currTime": 1610078832363.3586, "currBox": 201}'
+b'{"currValue": 1001.53, "currName": "bsec_pressure", "currTime": 1610078832363.3586, "currBox": 201}'
+{'currTime': 1610078832363.3586, 'currValue': 1001.53, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 147116, "currName": "bsec_gas", "currTime": 1610078832363.3586, "currBox": 201}'
+b'{"currValue": 147116, "currName": "bsec_gas", "currTime": 1610078832363.3586, "currBox": 201}'
+{'currTime': 1610078832363.3586, 'currValue': 147116, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 34.08, "currName": "bsec_iaq_static", "currTime": 1610078832363.3586, "currBox": 201}'
+b'{"currValue": 34.08, "currName": "bsec_iaq_static", "currTime": 1610078832363.3586, "currBox": 201}'
+{'currTime': 1610078832363.3586, 'currValue': 34.08, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 536.33, "currName": "bsec_CO2e", "currTime": 1610078832363.3586, "currBox": 201}'
+b'{"currValue": 536.33, "currName": "bsec_CO2e", "currTime": 1610078832363.3586, "currBox": 201}'
+{'currTime': 1610078832363.3586, 'currValue': 536.33, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610078832363.3586, "currBox": 201}'
+b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610078832363.3586, "currBox": 201}'
+{'currTime': 1610078832363.3586, 'currValue': 0.58, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 37.7, "currName": "bsec_iaq", "currTime": 1610078892359.5999, "currBox": 201}'
+b'{"currValue": 37.7, "currName": "bsec_iaq", "currTime": 1610078892359.5999, "currBox": 201}'
+{'currTime': 1610078892359.5999, 'currValue': 37.7, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610078892359.5999, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610078892359.5999, "currBox": 201}'
+{'currTime': 1610078892359.5999, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.71, "currName": "bsec_humidity", "currTime": 1610078892359.5999, "currBox": 201}'
+b'{"currValue": 38.71, "currName": "bsec_humidity", "currTime": 1610078892359.5999, "currBox": 201}'
+{'currTime': 1610078892359.5999, 'currValue': 38.71, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.55, "currName": "bsec_pressure", "currTime": 1610078892359.5999, "currBox": 201}'
+b'{"currValue": 1001.55, "currName": "bsec_pressure", "currTime": 1610078892359.5999, "currBox": 201}'
+{'currTime': 1610078892359.5999, 'currValue': 1001.55, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 148065, "currName": "bsec_gas", "currTime": 1610078892359.5999, "currBox": 201}'
+b'{"currValue": 148065, "currName": "bsec_gas", "currTime": 1610078892359.5999, "currBox": 201}'
+{'currTime': 1610078892359.5999, 'currValue': 148065, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 32.6, "currName": "bsec_iaq_static", "currTime": 1610078892359.5999, "currBox": 201}'
+b'{"currValue": 32.6, "currName": "bsec_iaq_static", "currTime": 1610078892359.5999, "currBox": 201}'
+{'currTime': 1610078892359.5999, 'currValue': 32.6, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 530.41, "currName": "bsec_CO2e", "currTime": 1610078892359.5999, "currBox": 201}'
+b'{"currValue": 530.41, "currName": "bsec_CO2e", "currTime": 1610078892359.5999, "currBox": 201}'
+{'currTime': 1610078892359.5999, 'currValue': 530.41, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.56, "currName": "bsec_VOCe", "currTime": 1610078892359.5999, "currBox": 201}'
+b'{"currValue": 0.56, "currName": "bsec_VOCe", "currTime": 1610078892359.5999, "currBox": 201}'
+{'currTime': 1610078892359.5999, 'currValue': 0.56, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 38.2, "currName": "bsec_iaq", "currTime": 1610078952355.3926, "currBox": 201}'
+b'{"currValue": 38.2, "currName": "bsec_iaq", "currTime": 1610078952355.3926, "currBox": 201}'
+{'currTime': 1610078952355.3926, 'currValue': 38.2, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610078952355.3926, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610078952355.3926, "currBox": 201}'
+{'currTime': 1610078952355.3926, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.65, "currName": "bsec_humidity", "currTime": 1610078952355.3926, "currBox": 201}'
+b'{"currValue": 38.65, "currName": "bsec_humidity", "currTime": 1610078952355.3926, "currBox": 201}'
+{'currTime': 1610078952355.3926, 'currValue': 38.65, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.56, "currName": "bsec_pressure", "currTime": 1610078952355.3926, "currBox": 201}'
+b'{"currValue": 1001.56, "currName": "bsec_pressure", "currTime": 1610078952355.3926, "currBox": 201}'
+{'currTime': 1610078952355.3926, 'currValue': 1001.56, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 148382, "currName": "bsec_gas", "currTime": 1610078952355.3926, "currBox": 201}'
+b'{"currValue": 148382, "currName": "bsec_gas", "currTime": 1610078952355.3926, "currBox": 201}'
+{'currTime': 1610078952355.3926, 'currValue': 148382, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 32.97, "currName": "bsec_iaq_static", "currTime": 1610078952355.3926, "currBox": 201}'
+b'{"currValue": 32.97, "currName": "bsec_iaq_static", "currTime": 1610078952355.3926, "currBox": 201}'
+{'currTime': 1610078952355.3926, 'currValue': 32.97, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 531.87, "currName": "bsec_CO2e", "currTime": 1610078952355.3926, "currBox": 201}'
+b'{"currValue": 531.87, "currName": "bsec_CO2e", "currTime": 1610078952355.3926, "currBox": 201}'
+{'currTime': 1610078952355.3926, 'currValue': 531.87, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.57, "currName": "bsec_VOCe", "currTime": 1610078952355.3926, "currBox": 201}'
+b'{"currValue": 0.57, "currName": "bsec_VOCe", "currTime": 1610078952355.3926, "currBox": 201}'
+{'currTime': 1610078952355.3926, 'currValue': 0.57, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 39.8, "currName": "bsec_iaq", "currTime": 1610079012353.3662, "currBox": 201}'
+b'{"currValue": 39.8, "currName": "bsec_iaq", "currTime": 1610079012353.3662, "currBox": 201}'
+{'currTime': 1610079012353.3662, 'currValue': 39.8, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079012353.3662, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079012353.3662, "currBox": 201}'
+{'currTime': 1610079012353.3662, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.62, "currName": "bsec_humidity", "currTime": 1610079012353.3662, "currBox": 201}'
+b'{"currValue": 38.62, "currName": "bsec_humidity", "currTime": 1610079012353.3662, "currBox": 201}'
+{'currTime': 1610079012353.3662, 'currValue': 38.62, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.55, "currName": "bsec_pressure", "currTime": 1610079012353.3662, "currBox": 201}'
+b'{"currValue": 1001.55, "currName": "bsec_pressure", "currTime": 1610079012353.3662, "currBox": 201}'
+{'currTime': 1610079012353.3662, 'currValue': 1001.55, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 148466, "currName": "bsec_gas", "currTime": 1610079012353.3662, "currBox": 201}'
+b'{"currValue": 148466, "currName": "bsec_gas", "currTime": 1610079012353.3662, "currBox": 201}'
+{'currTime': 1610079012353.3662, 'currValue': 148466, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 33.99, "currName": "bsec_iaq_static", "currTime": 1610079012353.3662, "currBox": 201}'
+b'{"currValue": 33.99, "currName": "bsec_iaq_static", "currTime": 1610079012353.3662, "currBox": 201}'
+{'currTime': 1610079012353.3662, 'currValue': 33.99, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 535.95, "currName": "bsec_CO2e", "currTime": 1610079012353.3662, "currBox": 201}'
+b'{"currValue": 535.95, "currName": "bsec_CO2e", "currTime": 1610079012353.3662, "currBox": 201}'
+{'currTime': 1610079012353.3662, 'currValue': 535.95, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.57, "currName": "bsec_VOCe", "currTime": 1610079012353.3662, "currBox": 201}'
+b'{"currValue": 0.57, "currName": "bsec_VOCe", "currTime": 1610079012353.3662, "currBox": 201}'
+{'currTime': 1610079012353.3662, 'currValue': 0.57, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 40.1, "currName": "bsec_iaq", "currTime": 1610079072345.4846, "currBox": 201}'
+b'{"currValue": 40.1, "currName": "bsec_iaq", "currTime": 1610079072345.4846, "currBox": 201}'
+{'currTime': 1610079072345.4846, 'currValue': 40.1, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079072345.4846, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079072345.4846, "currBox": 201}'
+{'currTime': 1610079072345.4846, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.58, "currName": "bsec_humidity", "currTime": 1610079072345.4846, "currBox": 201}'
+b'{"currValue": 38.58, "currName": "bsec_humidity", "currTime": 1610079072345.4846, "currBox": 201}'
+{'currTime': 1610079072345.4846, 'currValue': 38.58, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.54, "currName": "bsec_pressure", "currTime": 1610079072345.4846, "currBox": 201}'
+b'{"currValue": 1001.54, "currName": "bsec_pressure", "currTime": 1610079072345.4846, "currBox": 201}'
+{'currTime': 1610079072345.4846, 'currValue': 1001.54, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 148533, "currName": "bsec_gas", "currTime": 1610079072345.4846, "currBox": 201}'
+b'{"currValue": 148533, "currName": "bsec_gas", "currTime": 1610079072345.4846, "currBox": 201}'
+{'currTime': 1610079072345.4846, 'currValue': 148533, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 34.16, "currName": "bsec_iaq_static", "currTime": 1610079072345.4846, "currBox": 201}'
+b'{"currValue": 34.16, "currName": "bsec_iaq_static", "currTime": 1610079072345.4846, "currBox": 201}'
+{'currTime': 1610079072345.4846, 'currValue': 34.16, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 536.65, "currName": "bsec_CO2e", "currTime": 1610079072345.4846, "currBox": 201}'
+b'{"currValue": 536.65, "currName": "bsec_CO2e", "currTime": 1610079072345.4846, "currBox": 201}'
+{'currTime': 1610079072345.4846, 'currValue': 536.65, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610079072345.4846, "currBox": 201}'
+b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610079072345.4846, "currBox": 201}'
+{'currTime': 1610079072345.4846, 'currValue': 0.58, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 40.6, "currName": "bsec_iaq", "currTime": 1610079132337.278, "currBox": 201}'
+b'{"currValue": 40.6, "currName": "bsec_iaq", "currTime": 1610079132337.278, "currBox": 201}'
+{'currTime': 1610079132337.278, 'currValue': 40.6, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079132337.278, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079132337.278, "currBox": 201}'
+{'currTime': 1610079132337.278, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.55, "currName": "bsec_humidity", "currTime": 1610079132337.278, "currBox": 201}'
+b'{"currValue": 38.55, "currName": "bsec_humidity", "currTime": 1610079132337.278, "currBox": 201}'
+{'currTime': 1610079132337.278, 'currValue': 38.55, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.52, "currName": "bsec_pressure", "currTime": 1610079132337.278, "currBox": 201}'
+b'{"currValue": 1001.52, "currName": "bsec_pressure", "currTime": 1610079132337.278, "currBox": 201}'
+{'currTime': 1610079132337.278, 'currValue': 1001.52, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 148550, "currName": "bsec_gas", "currTime": 1610079132337.278, "currBox": 201}'
+b'{"currValue": 148550, "currName": "bsec_gas", "currTime": 1610079132337.278, "currBox": 201}'
+{'currTime': 1610079132337.278, 'currValue': 148550, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 34.45, "currName": "bsec_iaq_static", "currTime": 1610079132337.278, "currBox": 201}'
+b'{"currValue": 34.45, "currName": "bsec_iaq_static", "currTime": 1610079132337.278, "currBox": 201}'
+{'currTime': 1610079132337.278, 'currValue': 34.45, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 537.79, "currName": "bsec_CO2e", "currTime": 1610079132337.278, "currBox": 201}'
+b'{"currValue": 537.79, "currName": "bsec_CO2e", "currTime": 1610079132337.278, "currBox": 201}'
+{'currTime': 1610079132337.278, 'currValue': 537.79, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610079132337.278, "currBox": 201}'
+b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610079132337.278, "currBox": 201}'
+{'currTime': 1610079132337.278, 'currValue': 0.58, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 43.2, "currName": "bsec_iaq", "currTime": 1610079192329.7898, "currBox": 201}'
+b'{"currValue": 43.2, "currName": "bsec_iaq", "currTime": 1610079192329.7898, "currBox": 201}'
+{'currTime': 1610079192329.7898, 'currValue': 43.2, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079192329.7898, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079192329.7898, "currBox": 201}'
+{'currTime': 1610079192329.7898, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.54, "currName": "bsec_humidity", "currTime": 1610079192329.7898, "currBox": 201}'
+b'{"currValue": 38.54, "currName": "bsec_humidity", "currTime": 1610079192329.7898, "currBox": 201}'
+{'currTime': 1610079192329.7898, 'currValue': 38.54, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.52, "currName": "bsec_pressure", "currTime": 1610079192329.7898, "currBox": 201}'
+b'{"currValue": 1001.52, "currName": "bsec_pressure", "currTime": 1610079192329.7898, "currBox": 201}'
+{'currTime': 1610079192329.7898, 'currValue': 1001.52, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 148124, "currName": "bsec_gas", "currTime": 1610079192329.7898, "currBox": 201}'
+b'{"currValue": 148124, "currName": "bsec_gas", "currTime": 1610079192329.7898, "currBox": 201}'
+{'currTime': 1610079192329.7898, 'currValue': 148124, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 36.04, "currName": "bsec_iaq_static", "currTime": 1610079192329.7898, "currBox": 201}'
+b'{"currValue": 36.04, "currName": "bsec_iaq_static", "currTime": 1610079192329.7898, "currBox": 201}'
+{'currTime': 1610079192329.7898, 'currValue': 36.04, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 544.17, "currName": "bsec_CO2e", "currTime": 1610079192329.7898, "currBox": 201}'
+b'{"currValue": 544.17, "currName": "bsec_CO2e", "currTime": 1610079192329.7898, "currBox": 201}'
+{'currTime': 1610079192329.7898, 'currValue': 544.17, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.59, "currName": "bsec_VOCe", "currTime": 1610079192329.7898, "currBox": 201}'
+b'{"currValue": 0.59, "currName": "bsec_VOCe", "currTime": 1610079192329.7898, "currBox": 201}'
+{'currTime': 1610079192329.7898, 'currValue': 0.59, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 45.8, "currName": "bsec_iaq", "currTime": 1610079252325.6167, "currBox": 201}'
+b'{"currValue": 45.8, "currName": "bsec_iaq", "currTime": 1610079252325.6167, "currBox": 201}'
+{'currTime': 1610079252325.6167, 'currValue': 45.8, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079252325.6167, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079252325.6167, "currBox": 201}'
+{'currTime': 1610079252325.6167, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.57, "currName": "bsec_humidity", "currTime": 1610079252325.6167, "currBox": 201}'
+b'{"currValue": 38.57, "currName": "bsec_humidity", "currTime": 1610079252325.6167, "currBox": 201}'
+{'currTime': 1610079252325.6167, 'currValue': 38.57, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.52, "currName": "bsec_pressure", "currTime": 1610079252325.6167, "currBox": 201}'
+b'{"currValue": 1001.52, "currName": "bsec_pressure", "currTime": 1610079252325.6167, "currBox": 201}'
+{'currTime': 1610079252325.6167, 'currValue': 1001.52, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 147692, "currName": "bsec_gas", "currTime": 1610079252325.6167, "currBox": 201}'
+b'{"currValue": 147692, "currName": "bsec_gas", "currTime": 1610079252325.6167, "currBox": 201}'
+{'currTime': 1610079252325.6167, 'currValue': 147692, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 37.59, "currName": "bsec_iaq_static", "currTime": 1610079252325.6167, "currBox": 201}'
+b'{"currValue": 37.59, "currName": "bsec_iaq_static", "currTime": 1610079252325.6167, "currBox": 201}'
+{'currTime': 1610079252325.6167, 'currValue': 37.59, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 550.36, "currName": "bsec_CO2e", "currTime": 1610079252325.6167, "currBox": 201}'
+b'{"currValue": 550.36, "currName": "bsec_CO2e", "currTime": 1610079252325.6167, "currBox": 201}'
+{'currTime': 1610079252325.6167, 'currValue': 550.36, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.61, "currName": "bsec_VOCe", "currTime": 1610079252325.6167, "currBox": 201}'
+b'{"currValue": 0.61, "currName": "bsec_VOCe", "currTime": 1610079252325.6167, "currBox": 201}'
+{'currTime': 1610079252325.6167, 'currValue': 0.61, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 46.0, "currName": "bsec_iaq", "currTime": 1610079312321.2295, "currBox": 201}'
+b'{"currValue": 46.0, "currName": "bsec_iaq", "currTime": 1610079312321.2295, "currBox": 201}'
+{'currTime': 1610079312321.2295, 'currValue': 46.0, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079312321.2295, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079312321.2295, "currBox": 201}'
+{'currTime': 1610079312321.2295, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.57, "currName": "bsec_humidity", "currTime": 1610079312321.2295, "currBox": 201}'
+b'{"currValue": 38.57, "currName": "bsec_humidity", "currTime": 1610079312321.2295, "currBox": 201}'
+{'currTime': 1610079312321.2295, 'currValue': 38.57, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610079312321.2295, "currBox": 201}'
+b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610079312321.2295, "currBox": 201}'
+{'currTime': 1610079312321.2295, 'currValue': 1001.51, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 147704, "currName": "bsec_gas", "currTime": 1610079312321.2295, "currBox": 201}'
+b'{"currValue": 147704, "currName": "bsec_gas", "currTime": 1610079312321.2295, "currBox": 201}'
+{'currTime': 1610079312321.2295, 'currValue': 147704, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 37.73, "currName": "bsec_iaq_static", "currTime": 1610079312321.2295, "currBox": 201}'
+b'{"currValue": 37.73, "currName": "bsec_iaq_static", "currTime": 1610079312321.2295, "currBox": 201}'
+{'currTime': 1610079312321.2295, 'currValue': 37.73, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 550.91, "currName": "bsec_CO2e", "currTime": 1610079312321.2295, "currBox": 201}'
+b'{"currValue": 550.91, "currName": "bsec_CO2e", "currTime": 1610079312321.2295, "currBox": 201}'
+{'currTime': 1610079312321.2295, 'currValue': 550.91, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.61, "currName": "bsec_VOCe", "currTime": 1610079312321.2295, "currBox": 201}'
+b'{"currValue": 0.61, "currName": "bsec_VOCe", "currTime": 1610079312321.2295, "currBox": 201}'
+{'currTime': 1610079312321.2295, 'currValue': 0.61, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 46.4, "currName": "bsec_iaq", "currTime": 1610079372313.3472, "currBox": 201}'
+b'{"currValue": 46.4, "currName": "bsec_iaq", "currTime": 1610079372313.3472, "currBox": 201}'
+{'currTime': 1610079372313.3472, 'currValue': 46.4, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.09, "currName": "bsec_temperature", "currTime": 1610079372313.3472, "currBox": 201}'
+b'{"currValue": 30.09, "currName": "bsec_temperature", "currTime": 1610079372313.3472, "currBox": 201}'
+{'currTime': 1610079372313.3472, 'currValue': 30.09, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.61, "currName": "bsec_humidity", "currTime": 1610079372313.3472, "currBox": 201}'
+b'{"currValue": 38.61, "currName": "bsec_humidity", "currTime": 1610079372313.3472, "currBox": 201}'
+{'currTime': 1610079372313.3472, 'currValue': 38.61, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610079372313.3472, "currBox": 201}'
+b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610079372313.3472, "currBox": 201}'
+{'currTime': 1610079372313.3472, 'currValue': 1001.51, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 147470, "currName": "bsec_gas", "currTime": 1610079372313.3472, "currBox": 201}'
+b'{"currValue": 147470, "currName": "bsec_gas", "currTime": 1610079372313.3472, "currBox": 201}'
+{'currTime': 1610079372313.3472, 'currValue': 147470, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 37.96, "currName": "bsec_iaq_static", "currTime": 1610079372313.3472, "currBox": 201}'
+b'{"currValue": 37.96, "currName": "bsec_iaq_static", "currTime": 1610079372313.3472, "currBox": 201}'
+{'currTime': 1610079372313.3472, 'currValue': 37.96, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 551.84, "currName": "bsec_CO2e", "currTime": 1610079372313.3472, "currBox": 201}'
+b'{"currValue": 551.84, "currName": "bsec_CO2e", "currTime": 1610079372313.3472, "currBox": 201}'
+{'currTime': 1610079372313.3472, 'currValue': 551.84, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.61, "currName": "bsec_VOCe", "currTime": 1610079372313.3472, "currBox": 201}'
+b'{"currValue": 0.61, "currName": "bsec_VOCe", "currTime": 1610079372313.3472, "currBox": 201}'
+{'currTime': 1610079372313.3472, 'currValue': 0.61, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 45.3, "currName": "bsec_iaq", "currTime": 1610079432314.802, "currBox": 201}'
+b'{"currValue": 45.3, "currName": "bsec_iaq", "currTime": 1610079432314.802, "currBox": 201}'
+{'currTime': 1610079432314.802, 'currValue': 45.3, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.09, "currName": "bsec_temperature", "currTime": 1610079432314.802, "currBox": 201}'
+b'{"currValue": 30.09, "currName": "bsec_temperature", "currTime": 1610079432314.802, "currBox": 201}'
+{'currTime': 1610079432314.802, 'currValue': 30.09, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.61, "currName": "bsec_humidity", "currTime": 1610079432314.802, "currBox": 201}'
+b'{"currValue": 38.61, "currName": "bsec_humidity", "currTime": 1610079432314.802, "currBox": 201}'
+{'currTime': 1610079432314.802, 'currValue': 38.61, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610079432314.802, "currBox": 201}'
+b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610079432314.802, "currBox": 201}'
+{'currTime': 1610079432314.802, 'currValue': 1001.51, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 147657, "currName": "bsec_gas", "currTime": 1610079432314.802, "currBox": 201}'
+b'{"currValue": 147657, "currName": "bsec_gas", "currTime": 1610079432314.802, "currBox": 201}'
+{'currTime': 1610079432314.802, 'currValue': 147657, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 37.28, "currName": "bsec_iaq_static", "currTime": 1610079432314.802, "currBox": 201}'
+b'{"currValue": 37.28, "currName": "bsec_iaq_static", "currTime": 1610079432314.802, "currBox": 201}'
+{'currTime': 1610079432314.802, 'currValue': 37.28, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 549.13, "currName": "bsec_CO2e", "currTime": 1610079432314.802, "currBox": 201}'
+b'{"currValue": 549.13, "currName": "bsec_CO2e", "currTime": 1610079432314.802, "currBox": 201}'
+{'currTime': 1610079432314.802, 'currValue': 549.13, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.6, "currName": "bsec_VOCe", "currTime": 1610079432314.802, "currBox": 201}'
+b'{"currValue": 0.6, "currName": "bsec_VOCe", "currTime": 1610079432314.802, "currBox": 201}'
+{'currTime': 1610079432314.802, 'currValue': 0.6, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 44.5, "currName": "bsec_iaq", "currTime": 1610079492303.6035, "currBox": 201}'
+b'{"currValue": 44.5, "currName": "bsec_iaq", "currTime": 1610079492303.6035, "currBox": 201}'
+{'currTime': 1610079492303.6035, 'currValue': 44.5, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079492303.6035, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079492303.6035, "currBox": 201}'
+{'currTime': 1610079492303.6035, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.61, "currName": "bsec_humidity", "currTime": 1610079492303.6035, "currBox": 201}'
+b'{"currValue": 38.61, "currName": "bsec_humidity", "currTime": 1610079492303.6035, "currBox": 201}'
+{'currTime': 1610079492303.6035, 'currValue': 38.61, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610079492303.6035, "currBox": 201}'
+b'{"currValue": 1001.51, "currName": "bsec_pressure", "currTime": 1610079492303.6035, "currBox": 201}'
+{'currTime': 1610079492303.6035, 'currValue': 1001.51, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 147739, "currName": "bsec_gas", "currTime": 1610079492303.6035, "currBox": 201}'
+b'{"currValue": 147739, "currName": "bsec_gas", "currTime": 1610079492303.6035, "currBox": 201}'
+{'currTime': 1610079492303.6035, 'currValue': 147739, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 36.8, "currName": "bsec_iaq_static", "currTime": 1610079492303.6035, "currBox": 201}'
+b'{"currValue": 36.8, "currName": "bsec_iaq_static", "currTime": 1610079492303.6035, "currBox": 201}'
+{'currTime': 1610079492303.6035, 'currValue': 36.8, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 547.2, "currName": "bsec_CO2e", "currTime": 1610079492303.6035, "currBox": 201}'
+b'{"currValue": 547.2, "currName": "bsec_CO2e", "currTime": 1610079492303.6035, "currBox": 201}'
+{'currTime': 1610079492303.6035, 'currValue': 547.2, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.6, "currName": "bsec_VOCe", "currTime": 1610079492303.6035, "currBox": 201}'
+b'{"currValue": 0.6, "currName": "bsec_VOCe", "currTime": 1610079492303.6035, "currBox": 201}'
+{'currTime': 1610079492303.6035, 'currValue': 0.6, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 42.5, "currName": "bsec_iaq", "currTime": 1610079552300.9272, "currBox": 201}'
+b'{"currValue": 42.5, "currName": "bsec_iaq", "currTime": 1610079552300.9272, "currBox": 201}'
+{'currTime': 1610079552300.9272, 'currValue': 42.5, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079552300.9272, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079552300.9272, "currBox": 201}'
+{'currTime': 1610079552300.9272, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.56, "currName": "bsec_humidity", "currTime": 1610079552300.9272, "currBox": 201}'
+b'{"currValue": 38.56, "currName": "bsec_humidity", "currTime": 1610079552300.9272, "currBox": 201}'
+{'currTime': 1610079552300.9272, 'currValue': 38.56, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.54, "currName": "bsec_pressure", "currTime": 1610079552300.9272, "currBox": 201}'
+b'{"currValue": 1001.54, "currName": "bsec_pressure", "currTime": 1610079552300.9272, "currBox": 201}'
+{'currTime': 1610079552300.9272, 'currValue': 1001.54, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 148250, "currName": "bsec_gas", "currTime": 1610079552300.9272, "currBox": 201}'
+b'{"currValue": 148250, "currName": "bsec_gas", "currTime": 1610079552300.9272, "currBox": 201}'
+{'currTime': 1610079552300.9272, 'currValue': 148250, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 35.56, "currName": "bsec_iaq_static", "currTime": 1610079552300.9272, "currBox": 201}'
+b'{"currValue": 35.56, "currName": "bsec_iaq_static", "currTime": 1610079552300.9272, "currBox": 201}'
+{'currTime': 1610079552300.9272, 'currValue': 35.56, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 542.25, "currName": "bsec_CO2e", "currTime": 1610079552300.9272, "currBox": 201}'
+b'{"currValue": 542.25, "currName": "bsec_CO2e", "currTime": 1610079552300.9272, "currBox": 201}'
+{'currTime': 1610079552300.9272, 'currValue': 542.25, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.59, "currName": "bsec_VOCe", "currTime": 1610079552300.9272, "currBox": 201}'
+b'{"currValue": 0.59, "currName": "bsec_VOCe", "currTime": 1610079552300.9272, "currBox": 201}'
+{'currTime': 1610079552300.9272, 'currValue': 0.59, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 40.2, "currName": "bsec_iaq", "currTime": 1610079612299.0386, "currBox": 201}'
+b'{"currValue": 40.2, "currName": "bsec_iaq", "currTime": 1610079612299.0386, "currBox": 201}'
+{'currTime': 1610079612299.0386, 'currValue': 40.2, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079612299.0386, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079612299.0386, "currBox": 201}'
+{'currTime': 1610079612299.0386, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.51, "currName": "bsec_humidity", "currTime": 1610079612299.0386, "currBox": 201}'
+b'{"currValue": 38.51, "currName": "bsec_humidity", "currTime": 1610079612299.0386, "currBox": 201}'
+{'currTime': 1610079612299.0386, 'currValue': 38.51, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.55, "currName": "bsec_pressure", "currTime": 1610079612299.0386, "currBox": 201}'
+b'{"currValue": 1001.55, "currName": "bsec_pressure", "currTime": 1610079612299.0386, "currBox": 201}'
+{'currTime': 1610079612299.0386, 'currValue': 1001.55, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 148818, "currName": "bsec_gas", "currTime": 1610079612299.0386, "currBox": 201}'
+b'{"currValue": 148818, "currName": "bsec_gas", "currTime": 1610079612299.0386, "currBox": 201}'
+{'currTime': 1610079612299.0386, 'currValue': 148818, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 34.15, "currName": "bsec_iaq_static", "currTime": 1610079612299.0386, "currBox": 201}'
+b'{"currValue": 34.15, "currName": "bsec_iaq_static", "currTime": 1610079612299.0386, "currBox": 201}'
+{'currTime': 1610079612299.0386, 'currValue': 34.15, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 536.58, "currName": "bsec_CO2e", "currTime": 1610079612299.0386, "currBox": 201}'
+b'{"currValue": 536.58, "currName": "bsec_CO2e", "currTime": 1610079612299.0386, "currBox": 201}'
+{'currTime': 1610079612299.0386, 'currValue': 536.58, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610079612299.0386, "currBox": 201}'
+b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610079612299.0386, "currBox": 201}'
+{'currTime': 1610079612299.0386, 'currValue': 0.58, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 38.5, "currName": "bsec_iaq", "currTime": 1610079672293.6113, "currBox": 201}'
+b'{"currValue": 38.5, "currName": "bsec_iaq", "currTime": 1610079672293.6113, "currBox": 201}'
+{'currTime': 1610079672293.6113, 'currValue': 38.5, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.09, "currName": "bsec_temperature", "currTime": 1610079672293.6113, "currBox": 201}'
+b'{"currValue": 30.09, "currName": "bsec_temperature", "currTime": 1610079672293.6113, "currBox": 201}'
+{'currTime': 1610079672293.6113, 'currValue': 30.09, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.48, "currName": "bsec_humidity", "currTime": 1610079672293.6113, "currBox": 201}'
+b'{"currValue": 38.48, "currName": "bsec_humidity", "currTime": 1610079672293.6113, "currBox": 201}'
+{'currTime': 1610079672293.6113, 'currValue': 38.48, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.56, "currName": "bsec_pressure", "currTime": 1610079672293.6113, "currBox": 201}'
+b'{"currValue": 1001.56, "currName": "bsec_pressure", "currTime": 1610079672293.6113, "currBox": 201}'
+{'currTime': 1610079672293.6113, 'currValue': 1001.56, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 149348, "currName": "bsec_gas", "currTime": 1610079672293.6113, "currBox": 201}'
+b'{"currValue": 149348, "currName": "bsec_gas", "currTime": 1610079672293.6113, "currBox": 201}'
+{'currTime': 1610079672293.6113, 'currValue': 149348, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 33.16, "currName": "bsec_iaq_static", "currTime": 1610079672293.6113, "currBox": 201}'
+b'{"currValue": 33.16, "currName": "bsec_iaq_static", "currTime": 1610079672293.6113, "currBox": 201}'
+{'currTime': 1610079672293.6113, 'currValue': 33.16, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 532.64, "currName": "bsec_CO2e", "currTime": 1610079672293.6113, "currBox": 201}'
+b'{"currValue": 532.64, "currName": "bsec_CO2e", "currTime": 1610079672293.6113, "currBox": 201}'
+{'currTime': 1610079672293.6113, 'currValue': 532.64, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.57, "currName": "bsec_VOCe", "currTime": 1610079672293.6113, "currBox": 201}'
+b'{"currValue": 0.57, "currName": "bsec_VOCe", "currTime": 1610079672293.6113, "currBox": 201}'
+{'currTime': 1610079672293.6113, 'currValue': 0.57, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 37.9, "currName": "bsec_iaq", "currTime": 1610079732289.6787, "currBox": 201}'
+b'{"currValue": 37.9, "currName": "bsec_iaq", "currTime": 1610079732289.6787, "currBox": 201}'
+{'currTime': 1610079732289.6787, 'currValue': 37.9, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.09, "currName": "bsec_temperature", "currTime": 1610079732289.6787, "currBox": 201}'
+b'{"currValue": 30.09, "currName": "bsec_temperature", "currTime": 1610079732289.6787, "currBox": 201}'
+{'currTime': 1610079732289.6787, 'currValue': 30.09, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.46, "currName": "bsec_humidity", "currTime": 1610079732289.6787, "currBox": 201}'
+b'{"currValue": 38.46, "currName": "bsec_humidity", "currTime": 1610079732289.6787, "currBox": 201}'
+{'currTime': 1610079732289.6787, 'currValue': 38.46, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.57, "currName": "bsec_pressure", "currTime": 1610079732289.6787, "currBox": 201}'
+b'{"currValue": 1001.57, "currName": "bsec_pressure", "currTime": 1610079732289.6787, "currBox": 201}'
+{'currTime': 1610079732289.6787, 'currValue': 1001.57, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 149675, "currName": "bsec_gas", "currTime": 1610079732289.6787, "currBox": 201}'
+b'{"currValue": 149675, "currName": "bsec_gas", "currTime": 1610079732289.6787, "currBox": 201}'
+{'currTime': 1610079732289.6787, 'currValue': 149675, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 32.86, "currName": "bsec_iaq_static", "currTime": 1610079732289.6787, "currBox": 201}'
+b'{"currValue": 32.86, "currName": "bsec_iaq_static", "currTime": 1610079732289.6787, "currBox": 201}'
+{'currTime': 1610079732289.6787, 'currValue': 32.86, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 531.44, "currName": "bsec_CO2e", "currTime": 1610079732289.6787, "currBox": 201}'
+b'{"currValue": 531.44, "currName": "bsec_CO2e", "currTime": 1610079732289.6787, "currBox": 201}'
+{'currTime': 1610079732289.6787, 'currValue': 531.44, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.56, "currName": "bsec_VOCe", "currTime": 1610079732289.6787, "currBox": 201}'
+b'{"currValue": 0.56, "currName": "bsec_VOCe", "currTime": 1610079732289.6787, "currBox": 201}'
+{'currTime': 1610079732289.6787, 'currValue': 0.56, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 36.2, "currName": "bsec_iaq", "currTime": 1610079792286.415, "currBox": 201}'
+b'{"currValue": 36.2, "currName": "bsec_iaq", "currTime": 1610079792286.415, "currBox": 201}'
+{'currTime': 1610079792286.415, 'currValue': 36.2, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079792286.415, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610079792286.415, "currBox": 201}'
+{'currTime': 1610079792286.415, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.41, "currName": "bsec_humidity", "currTime": 1610079792286.415, "currBox": 201}'
+b'{"currValue": 38.41, "currName": "bsec_humidity", "currTime": 1610079792286.415, "currBox": 201}'
+{'currTime': 1610079792286.415, 'currValue': 38.41, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.57, "currName": "bsec_pressure", "currTime": 1610079792286.415, "currBox": 201}'
+b'{"currValue": 1001.57, "currName": "bsec_pressure", "currTime": 1610079792286.415, "currBox": 201}'
+{'currTime': 1610079792286.415, 'currValue': 1001.57, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 150290, "currName": "bsec_gas", "currTime": 1610079792286.415, "currBox": 201}'
+b'{"currValue": 150290, "currName": "bsec_gas", "currTime": 1610079792286.415, "currBox": 201}'
+{'currTime': 1610079792286.415, 'currValue': 150290, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 31.8, "currName": "bsec_iaq_static", "currTime": 1610079792286.415, "currBox": 201}'
+b'{"currValue": 31.8, "currName": "bsec_iaq_static", "currTime": 1610079792286.415, "currBox": 201}'
+{'currTime': 1610079792286.415, 'currValue': 31.8, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 527.21, "currName": "bsec_CO2e", "currTime": 1610079792286.415, "currBox": 201}'
+b'{"currValue": 527.21, "currName": "bsec_CO2e", "currTime": 1610079792286.415, "currBox": 201}'
+{'currTime': 1610079792286.415, 'currValue': 527.21, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.56, "currName": "bsec_VOCe", "currTime": 1610079792286.415, "currBox": 201}'
+b'{"currValue": 0.56, "currName": "bsec_VOCe", "currTime": 1610079792286.415, "currBox": 201}'
+{'currTime': 1610079792286.415, 'currValue': 0.56, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 35.1, "currName": "bsec_iaq", "currTime": 1610079852285.18, "currBox": 201}'
+b'{"currValue": 35.1, "currName": "bsec_iaq", "currTime": 1610079852285.18, "currBox": 201}'
+{'currTime': 1610079852285.18, 'currValue': 35.1, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079852285.18, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079852285.18, "currBox": 201}'
+{'currTime': 1610079852285.18, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.35, "currName": "bsec_humidity", "currTime": 1610079852285.18, "currBox": 201}'
+b'{"currValue": 38.35, "currName": "bsec_humidity", "currTime": 1610079852285.18, "currBox": 201}'
+{'currTime': 1610079852285.18, 'currValue': 38.35, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.57, "currName": "bsec_pressure", "currTime": 1610079852285.18, "currBox": 201}'
+b'{"currValue": 1001.57, "currName": "bsec_pressure", "currTime": 1610079852285.18, "currBox": 201}'
+{'currTime': 1610079852285.18, 'currValue': 1001.57, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 150910, "currName": "bsec_gas", "currTime": 1610079852285.18, "currBox": 201}'
+b'{"currValue": 150910, "currName": "bsec_gas", "currTime": 1610079852285.18, "currBox": 201}'
+{'currTime': 1610079852285.18, 'currValue': 150910, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 31.2, "currName": "bsec_iaq_static", "currTime": 1610079852285.18, "currBox": 201}'
+b'{"currValue": 31.2, "currName": "bsec_iaq_static", "currTime": 1610079852285.18, "currBox": 201}'
+{'currTime': 1610079852285.18, 'currValue': 31.2, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 524.79, "currName": "bsec_CO2e", "currTime": 1610079852285.18, "currBox": 201}'
+b'{"currValue": 524.79, "currName": "bsec_CO2e", "currTime": 1610079852285.18, "currBox": 201}'
+{'currTime': 1610079852285.18, 'currValue': 524.79, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.55, "currName": "bsec_VOCe", "currTime": 1610079852285.18, "currBox": 201}'
+b'{"currValue": 0.55, "currName": "bsec_VOCe", "currTime": 1610079852285.18, "currBox": 201}'
+{'currTime': 1610079852285.18, 'currValue': 0.55, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 33.7, "currName": "bsec_iaq", "currTime": 1610079912282.0935, "currBox": 201}'
+b'{"currValue": 33.7, "currName": "bsec_iaq", "currTime": 1610079912282.0935, "currBox": 201}'
+{'currTime': 1610079912282.0935, 'currValue': 33.7, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079912282.0935, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079912282.0935, "currBox": 201}'
+{'currTime': 1610079912282.0935, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.26, "currName": "bsec_humidity", "currTime": 1610079912282.0935, "currBox": 201}'
+b'{"currValue": 38.26, "currName": "bsec_humidity", "currTime": 1610079912282.0935, "currBox": 201}'
+{'currTime': 1610079912282.0935, 'currValue': 38.26, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.56, "currName": "bsec_pressure", "currTime": 1610079912282.0935, "currBox": 201}'
+b'{"currValue": 1001.56, "currName": "bsec_pressure", "currTime": 1610079912282.0935, "currBox": 201}'
+{'currTime': 1610079912282.0935, 'currValue': 1001.56, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 151627, "currName": "bsec_gas", "currTime": 1610079912282.0935, "currBox": 201}'
+b'{"currValue": 151627, "currName": "bsec_gas", "currTime": 1610079912282.0935, "currBox": 201}'
+{'currTime': 1610079912282.0935, 'currValue': 151627, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 30.34, "currName": "bsec_iaq_static", "currTime": 1610079912282.0935, "currBox": 201}'
+b'{"currValue": 30.34, "currName": "bsec_iaq_static", "currTime": 1610079912282.0935, "currBox": 201}'
+{'currTime': 1610079912282.0935, 'currValue': 30.34, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 521.36, "currName": "bsec_CO2e", "currTime": 1610079912282.0935, "currBox": 201}'
+b'{"currValue": 521.36, "currName": "bsec_CO2e", "currTime": 1610079912282.0935, "currBox": 201}'
+{'currTime': 1610079912282.0935, 'currValue': 521.36, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.54, "currName": "bsec_VOCe", "currTime": 1610079912282.0935, "currBox": 201}'
+b'{"currValue": 0.54, "currName": "bsec_VOCe", "currTime": 1610079912282.0935, "currBox": 201}'
+{'currTime': 1610079912282.0935, 'currValue': 0.54, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 35.4, "currName": "bsec_iaq", "currTime": 1610079972275.6614, "currBox": 201}'
+b'{"currValue": 35.4, "currName": "bsec_iaq", "currTime": 1610079972275.6614, "currBox": 201}'
+{'currTime': 1610079972275.6614, 'currValue': 35.4, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079972275.6614, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610079972275.6614, "currBox": 201}'
+{'currTime': 1610079972275.6614, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.22, "currName": "bsec_humidity", "currTime": 1610079972275.6614, "currBox": 201}'
+b'{"currValue": 38.22, "currName": "bsec_humidity", "currTime": 1610079972275.6614, "currBox": 201}'
+{'currTime': 1610079972275.6614, 'currValue': 38.22, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.54, "currName": "bsec_pressure", "currTime": 1610079972275.6614, "currBox": 201}'
+b'{"currValue": 1001.54, "currName": "bsec_pressure", "currTime": 1610079972275.6614, "currBox": 201}'
+{'currTime': 1610079972275.6614, 'currValue': 1001.54, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 151652, "currName": "bsec_gas", "currTime": 1610079972275.6614, "currBox": 201}'
+b'{"currValue": 151652, "currName": "bsec_gas", "currTime": 1610079972275.6614, "currBox": 201}'
+{'currTime': 1610079972275.6614, 'currValue': 151652, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 31.48, "currName": "bsec_iaq_static", "currTime": 1610079972275.6614, "currBox": 201}'
+b'{"currValue": 31.48, "currName": "bsec_iaq_static", "currTime": 1610079972275.6614, "currBox": 201}'
+{'currTime': 1610079972275.6614, 'currValue': 31.48, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 525.91, "currName": "bsec_CO2e", "currTime": 1610079972275.6614, "currBox": 201}'
+b'{"currValue": 525.91, "currName": "bsec_CO2e", "currTime": 1610079972275.6614, "currBox": 201}'
+{'currTime': 1610079972275.6614, 'currValue': 525.91, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.55, "currName": "bsec_VOCe", "currTime": 1610079972275.6614, "currBox": 201}'
+b'{"currValue": 0.55, "currName": "bsec_VOCe", "currTime": 1610079972275.6614, "currBox": 201}'
+{'currTime': 1610079972275.6614, 'currValue': 0.55, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 37.0, "currName": "bsec_iaq", "currTime": 1610080032272.516, "currBox": 201}'
+b'{"currValue": 37.0, "currName": "bsec_iaq", "currTime": 1610080032272.516, "currBox": 201}'
+{'currTime': 1610080032272.516, 'currValue': 37.0, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.06, "currName": "bsec_temperature", "currTime": 1610080032272.516, "currBox": 201}'
+b'{"currValue": 30.06, "currName": "bsec_temperature", "currTime": 1610080032272.516, "currBox": 201}'
+{'currTime': 1610080032272.516, 'currValue': 30.06, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.23, "currName": "bsec_humidity", "currTime": 1610080032272.516, "currBox": 201}'
+b'{"currValue": 38.23, "currName": "bsec_humidity", "currTime": 1610080032272.516, "currBox": 201}'
+{'currTime': 1610080032272.516, 'currValue': 38.23, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.53, "currName": "bsec_pressure", "currTime": 1610080032272.516, "currBox": 201}'
+b'{"currValue": 1001.53, "currName": "bsec_pressure", "currTime": 1610080032272.516, "currBox": 201}'
+{'currTime': 1610080032272.516, 'currValue': 1001.53, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 151477, "currName": "bsec_gas", "currTime": 1610080032272.516, "currBox": 201}'
+b'{"currValue": 151477, "currName": "bsec_gas", "currTime": 1610080032272.516, "currBox": 201}'
+{'currTime': 1610080032272.516, 'currValue': 151477, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 32.43, "currName": "bsec_iaq_static", "currTime": 1610080032272.516, "currBox": 201}'
+b'{"currValue": 32.43, "currName": "bsec_iaq_static", "currTime": 1610080032272.516, "currBox": 201}'
+{'currTime': 1610080032272.516, 'currValue': 32.43, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 529.7, "currName": "bsec_CO2e", "currTime": 1610080032272.516, "currBox": 201}'
+b'{"currValue": 529.7, "currName": "bsec_CO2e", "currTime": 1610080032272.516, "currBox": 201}'
+{'currTime': 1610080032272.516, 'currValue': 529.7, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.56, "currName": "bsec_VOCe", "currTime": 1610080032272.516, "currBox": 201}'
+b'{"currValue": 0.56, "currName": "bsec_VOCe", "currTime": 1610080032272.516, "currBox": 201}'
+{'currTime': 1610080032272.516, 'currValue': 0.56, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 40.5, "currName": "bsec_iaq", "currTime": 1610080092267.246, "currBox": 201}'
+b'{"currValue": 40.5, "currName": "bsec_iaq", "currTime": 1610080092267.246, "currBox": 201}'
+{'currTime': 1610080092267.246, 'currValue': 40.5, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080092267.246, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080092267.246, "currBox": 201}'
+{'currTime': 1610080092267.246, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.26, "currName": "bsec_humidity", "currTime": 1610080092267.246, "currBox": 201}'
+b'{"currValue": 38.26, "currName": "bsec_humidity", "currTime": 1610080092267.246, "currBox": 201}'
+{'currTime': 1610080092267.246, 'currValue': 38.26, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.52, "currName": "bsec_pressure", "currTime": 1610080092267.246, "currBox": 201}'
+b'{"currValue": 1001.52, "currName": "bsec_pressure", "currTime": 1610080092267.246, "currBox": 201}'
+{'currTime': 1610080092267.246, 'currValue': 1001.52, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 150787, "currName": "bsec_gas", "currTime": 1610080092267.246, "currBox": 201}'
+b'{"currValue": 150787, "currName": "bsec_gas", "currTime": 1610080092267.246, "currBox": 201}'
+{'currTime': 1610080092267.246, 'currValue': 150787, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 34.62, "currName": "bsec_iaq_static", "currTime": 1610080092267.246, "currBox": 201}'
+b'{"currValue": 34.62, "currName": "bsec_iaq_static", "currTime": 1610080092267.246, "currBox": 201}'
+{'currTime': 1610080092267.246, 'currValue': 34.62, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 538.46, "currName": "bsec_CO2e", "currTime": 1610080092267.246, "currBox": 201}'
+b'{"currValue": 538.46, "currName": "bsec_CO2e", "currTime": 1610080092267.246, "currBox": 201}'
+{'currTime': 1610080092267.246, 'currValue': 538.46, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080092267.246, "currBox": 201}'
+b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080092267.246, "currBox": 201}'
+{'currTime': 1610080092267.246, 'currValue': 0.58, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 41.7, "currName": "bsec_iaq", "currTime": 1610080152266.7373, "currBox": 201}'
+b'{"currValue": 41.7, "currName": "bsec_iaq", "currTime": 1610080152266.7373, "currBox": 201}'
+{'currTime': 1610080152266.7373, 'currValue': 41.7, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080152266.7373, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080152266.7373, "currBox": 201}'
+{'currTime': 1610080152266.7373, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.29, "currName": "bsec_humidity", "currTime": 1610080152266.7373, "currBox": 201}'
+b'{"currValue": 38.29, "currName": "bsec_humidity", "currTime": 1610080152266.7373, "currBox": 201}'
+{'currTime': 1610080152266.7373, 'currValue': 38.29, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.53, "currName": "bsec_pressure", "currTime": 1610080152266.7373, "currBox": 201}'
+b'{"currValue": 1001.53, "currName": "bsec_pressure", "currTime": 1610080152266.7373, "currBox": 201}'
+{'currTime': 1610080152266.7373, 'currValue': 1001.53, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 150554, "currName": "bsec_gas", "currTime": 1610080152266.7373, "currBox": 201}'
+b'{"currValue": 150554, "currName": "bsec_gas", "currTime": 1610080152266.7373, "currBox": 201}'
+{'currTime': 1610080152266.7373, 'currValue': 150554, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 35.31, "currName": "bsec_iaq_static", "currTime": 1610080152266.7373, "currBox": 201}'
+b'{"currValue": 35.31, "currName": "bsec_iaq_static", "currTime": 1610080152266.7373, "currBox": 201}'
+{'currTime': 1610080152266.7373, 'currValue': 35.31, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 541.24, "currName": "bsec_CO2e", "currTime": 1610080152266.7373, "currBox": 201}'
+b'{"currValue": 541.24, "currName": "bsec_CO2e", "currTime": 1610080152266.7373, "currBox": 201}'
+{'currTime': 1610080152266.7373, 'currValue': 541.24, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.59, "currName": "bsec_VOCe", "currTime": 1610080152266.7373, "currBox": 201}'
+b'{"currValue": 0.59, "currName": "bsec_VOCe", "currTime": 1610080152266.7373, "currBox": 201}'
+{'currTime': 1610080152266.7373, 'currValue': 0.59, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 40.7, "currName": "bsec_iaq", "currTime": 1610080212258.598, "currBox": 201}'
+b'{"currValue": 40.7, "currName": "bsec_iaq", "currTime": 1610080212258.598, "currBox": 201}'
+{'currTime': 1610080212258.598, 'currValue': 40.7, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080212258.598, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080212258.598, "currBox": 201}'
+{'currTime': 1610080212258.598, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.29, "currName": "bsec_humidity", "currTime": 1610080212258.598, "currBox": 201}'
+b'{"currValue": 38.29, "currName": "bsec_humidity", "currTime": 1610080212258.598, "currBox": 201}'
+{'currTime': 1610080212258.598, 'currValue': 38.29, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.55, "currName": "bsec_pressure", "currTime": 1610080212258.598, "currBox": 201}'
+b'{"currValue": 1001.55, "currName": "bsec_pressure", "currTime": 1610080212258.598, "currBox": 201}'
+{'currTime': 1610080212258.598, 'currValue': 1001.55, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 150759, "currName": "bsec_gas", "currTime": 1610080212258.598, "currBox": 201}'
+b'{"currValue": 150759, "currName": "bsec_gas", "currTime": 1610080212258.598, "currBox": 201}'
+{'currTime': 1610080212258.598, 'currValue': 150759, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 34.69, "currName": "bsec_iaq_static", "currTime": 1610080212258.598, "currBox": 201}'
+b'{"currValue": 34.69, "currName": "bsec_iaq_static", "currTime": 1610080212258.598, "currBox": 201}'
+{'currTime': 1610080212258.598, 'currValue': 34.69, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 538.77, "currName": "bsec_CO2e", "currTime": 1610080212258.598, "currBox": 201}'
+b'{"currValue": 538.77, "currName": "bsec_CO2e", "currTime": 1610080212258.598, "currBox": 201}'
+{'currTime': 1610080212258.598, 'currValue': 538.77, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080212258.598, "currBox": 201}'
+b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080212258.598, "currBox": 201}'
+{'currTime': 1610080212258.598, 'currValue': 0.58, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 36.6, "currName": "bsec_iaq", "currTime": 1610080272253.1816, "currBox": 201}'
+b'{"currValue": 36.6, "currName": "bsec_iaq", "currTime": 1610080272253.1816, "currBox": 201}'
+{'currTime': 1610080272253.1816, 'currValue': 36.6, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080272253.1816, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080272253.1816, "currBox": 201}'
+{'currTime': 1610080272253.1816, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.28, "currName": "bsec_humidity", "currTime": 1610080272253.1816, "currBox": 201}'
+b'{"currValue": 38.28, "currName": "bsec_humidity", "currTime": 1610080272253.1816, "currBox": 201}'
+{'currTime': 1610080272253.1816, 'currValue': 38.28, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080272253.1816, "currBox": 201}'
+b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080272253.1816, "currBox": 201}'
+{'currTime': 1610080272253.1816, 'currValue': 1001.58, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 151636, "currName": "bsec_gas", "currTime": 1610080272253.1816, "currBox": 201}'
+b'{"currValue": 151636, "currName": "bsec_gas", "currTime": 1610080272253.1816, "currBox": 201}'
+{'currTime': 1610080272253.1816, 'currValue': 151636, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 32.18, "currName": "bsec_iaq_static", "currTime": 1610080272253.1816, "currBox": 201}'
+b'{"currValue": 32.18, "currName": "bsec_iaq_static", "currTime": 1610080272253.1816, "currBox": 201}'
+{'currTime': 1610080272253.1816, 'currValue': 32.18, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 528.71, "currName": "bsec_CO2e", "currTime": 1610080272253.1816, "currBox": 201}'
+b'{"currValue": 528.71, "currName": "bsec_CO2e", "currTime": 1610080272253.1816, "currBox": 201}'
+{'currTime': 1610080272253.1816, 'currValue': 528.71, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.56, "currName": "bsec_VOCe", "currTime": 1610080272253.1816, "currBox": 201}'
+b'{"currValue": 0.56, "currName": "bsec_VOCe", "currTime": 1610080272253.1816, "currBox": 201}'
+{'currTime': 1610080272253.1816, 'currValue': 0.56, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 34.2, "currName": "bsec_iaq", "currTime": 1610080332247.078, "currBox": 201}'
+b'{"currValue": 34.2, "currName": "bsec_iaq", "currTime": 1610080332247.078, "currBox": 201}'
+{'currTime': 1610080332247.078, 'currValue': 34.2, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080332247.078, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080332247.078, "currBox": 201}'
+{'currTime': 1610080332247.078, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.28, "currName": "bsec_humidity", "currTime": 1610080332247.078, "currBox": 201}'
+b'{"currValue": 38.28, "currName": "bsec_humidity", "currTime": 1610080332247.078, "currBox": 201}'
+{'currTime': 1610080332247.078, 'currValue': 38.28, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.59, "currName": "bsec_pressure", "currTime": 1610080332247.078, "currBox": 201}'
+b'{"currValue": 1001.59, "currName": "bsec_pressure", "currTime": 1610080332247.078, "currBox": 201}'
+{'currTime': 1610080332247.078, 'currValue': 1001.59, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 152169, "currName": "bsec_gas", "currTime": 1610080332247.078, "currBox": 201}'
+b'{"currValue": 152169, "currName": "bsec_gas", "currTime": 1610080332247.078, "currBox": 201}'
+{'currTime': 1610080332247.078, 'currValue': 152169, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 30.71, "currName": "bsec_iaq_static", "currTime": 1610080332247.078, "currBox": 201}'
+b'{"currValue": 30.71, "currName": "bsec_iaq_static", "currTime": 1610080332247.078, "currBox": 201}'
+{'currTime': 1610080332247.078, 'currValue': 30.71, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 522.84, "currName": "bsec_CO2e", "currTime": 1610080332247.078, "currBox": 201}'
+b'{"currValue": 522.84, "currName": "bsec_CO2e", "currTime": 1610080332247.078, "currBox": 201}'
+{'currTime': 1610080332247.078, 'currValue': 522.84, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.55, "currName": "bsec_VOCe", "currTime": 1610080332247.078, "currBox": 201}'
+b'{"currValue": 0.55, "currName": "bsec_VOCe", "currTime": 1610080332247.078, "currBox": 201}'
+{'currTime': 1610080332247.078, 'currValue': 0.55, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 35.3, "currName": "bsec_iaq", "currTime": 1610080392244.7292, "currBox": 201}'
+b'{"currValue": 35.3, "currName": "bsec_iaq", "currTime": 1610080392244.7292, "currBox": 201}'
+{'currTime': 1610080392244.7292, 'currValue': 35.3, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080392244.7292, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080392244.7292, "currBox": 201}'
+{'currTime': 1610080392244.7292, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.3, "currName": "bsec_humidity", "currTime": 1610080392244.7292, "currBox": 201}'
+b'{"currValue": 38.3, "currName": "bsec_humidity", "currTime": 1610080392244.7292, "currBox": 201}'
+{'currTime': 1610080392244.7292, 'currValue': 38.3, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.59, "currName": "bsec_pressure", "currTime": 1610080392244.7292, "currBox": 201}'
+b'{"currValue": 1001.59, "currName": "bsec_pressure", "currTime": 1610080392244.7292, "currBox": 201}'
+{'currTime': 1610080392244.7292, 'currValue': 1001.59, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 152006, "currName": "bsec_gas", "currTime": 1610080392244.7292, "currBox": 201}'
+b'{"currValue": 152006, "currName": "bsec_gas", "currTime": 1610080392244.7292, "currBox": 201}'
+{'currTime': 1610080392244.7292, 'currValue': 152006, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 31.43, "currName": "bsec_iaq_static", "currTime": 1610080392244.7292, "currBox": 201}'
+b'{"currValue": 31.43, "currName": "bsec_iaq_static", "currTime": 1610080392244.7292, "currBox": 201}'
+{'currTime': 1610080392244.7292, 'currValue': 31.43, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 525.73, "currName": "bsec_CO2e", "currTime": 1610080392244.7292, "currBox": 201}'
+b'{"currValue": 525.73, "currName": "bsec_CO2e", "currTime": 1610080392244.7292, "currBox": 201}'
+{'currTime': 1610080392244.7292, 'currValue': 525.73, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.55, "currName": "bsec_VOCe", "currTime": 1610080392244.7292, "currBox": 201}'
+b'{"currValue": 0.55, "currName": "bsec_VOCe", "currTime": 1610080392244.7292, "currBox": 201}'
+{'currTime': 1610080392244.7292, 'currValue': 0.55, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 38.2, "currName": "bsec_iaq", "currTime": 1610080452241.655, "currBox": 201}'
+b'{"currValue": 38.2, "currName": "bsec_iaq", "currTime": 1610080452241.655, "currBox": 201}'
+{'currTime': 1610080452241.655, 'currValue': 38.2, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080452241.655, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080452241.655, "currBox": 201}'
+{'currTime': 1610080452241.655, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.34, "currName": "bsec_humidity", "currTime": 1610080452241.655, "currBox": 201}'
+b'{"currValue": 38.34, "currName": "bsec_humidity", "currTime": 1610080452241.655, "currBox": 201}'
+{'currTime': 1610080452241.655, 'currValue': 38.34, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.59, "currName": "bsec_pressure", "currTime": 1610080452241.655, "currBox": 201}'
+b'{"currValue": 1001.59, "currName": "bsec_pressure", "currTime": 1610080452241.655, "currBox": 201}'
+{'currTime': 1610080452241.655, 'currValue': 1001.59, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 151526, "currName": "bsec_gas", "currTime": 1610080452241.655, "currBox": 201}'
+b'{"currValue": 151526, "currName": "bsec_gas", "currTime": 1610080452241.655, "currBox": 201}'
+{'currTime': 1610080452241.655, 'currValue': 151526, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 33.26, "currName": "bsec_iaq_static", "currTime": 1610080452241.655, "currBox": 201}'
+b'{"currValue": 33.26, "currName": "bsec_iaq_static", "currTime": 1610080452241.655, "currBox": 201}'
+{'currTime': 1610080452241.655, 'currValue': 33.26, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 533.05, "currName": "bsec_CO2e", "currTime": 1610080452241.655, "currBox": 201}'
+b'{"currValue": 533.05, "currName": "bsec_CO2e", "currTime": 1610080452241.655, "currBox": 201}'
+{'currTime': 1610080452241.655, 'currValue': 533.05, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.57, "currName": "bsec_VOCe", "currTime": 1610080452241.655, "currBox": 201}'
+b'{"currValue": 0.57, "currName": "bsec_VOCe", "currTime": 1610080452241.655, "currBox": 201}'
+{'currTime': 1610080452241.655, 'currValue': 0.57, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 40.5, "currName": "bsec_iaq", "currTime": 1610080512237.4827, "currBox": 201}'
+b'{"currValue": 40.5, "currName": "bsec_iaq", "currTime": 1610080512237.4827, "currBox": 201}'
+{'currTime': 1610080512237.4827, 'currValue': 40.5, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080512237.4827, "currBox": 201}'
+b'{"currValue": 30.07, "currName": "bsec_temperature", "currTime": 1610080512237.4827, "currBox": 201}'
+{'currTime': 1610080512237.4827, 'currValue': 30.07, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.37, "currName": "bsec_humidity", "currTime": 1610080512237.4827, "currBox": 201}'
+b'{"currValue": 38.37, "currName": "bsec_humidity", "currTime": 1610080512237.4827, "currBox": 201}'
+{'currTime': 1610080512237.4827, 'currValue': 38.37, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080512237.4827, "currBox": 201}'
+b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080512237.4827, "currBox": 201}'
+{'currTime': 1610080512237.4827, 'currValue': 1001.58, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 151069, "currName": "bsec_gas", "currTime": 1610080512237.4827, "currBox": 201}'
+b'{"currValue": 151069, "currName": "bsec_gas", "currTime": 1610080512237.4827, "currBox": 201}'
+{'currTime': 1610080512237.4827, 'currValue': 151069, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 34.68, "currName": "bsec_iaq_static", "currTime": 1610080512237.4827, "currBox": 201}'
+b'{"currValue": 34.68, "currName": "bsec_iaq_static", "currTime": 1610080512237.4827, "currBox": 201}'
+{'currTime': 1610080512237.4827, 'currValue': 34.68, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 538.72, "currName": "bsec_CO2e", "currTime": 1610080512237.4827, "currBox": 201}'
+b'{"currValue": 538.72, "currName": "bsec_CO2e", "currTime": 1610080512237.4827, "currBox": 201}'
+{'currTime': 1610080512237.4827, 'currValue': 538.72, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080512237.4827, "currBox": 201}'
+b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080512237.4827, "currBox": 201}'
+{'currTime': 1610080512237.4827, 'currValue': 0.58, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 40.4, "currName": "bsec_iaq", "currTime": 1610080572232.3677, "currBox": 201}'
+b'{"currValue": 40.4, "currName": "bsec_iaq", "currTime": 1610080572232.3677, "currBox": 201}'
+{'currTime': 1610080572232.3677, 'currValue': 40.4, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610080572232.3677, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610080572232.3677, "currBox": 201}'
+{'currTime': 1610080572232.3677, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.39, "currName": "bsec_humidity", "currTime": 1610080572232.3677, "currBox": 201}'
+b'{"currValue": 38.39, "currName": "bsec_humidity", "currTime": 1610080572232.3677, "currBox": 201}'
+{'currTime': 1610080572232.3677, 'currValue': 38.39, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.59, "currName": "bsec_pressure", "currTime": 1610080572232.3677, "currBox": 201}'
+b'{"currValue": 1001.59, "currName": "bsec_pressure", "currTime": 1610080572232.3677, "currBox": 201}'
+{'currTime': 1610080572232.3677, 'currValue': 1001.59, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 151006, "currName": "bsec_gas", "currTime": 1610080572232.3677, "currBox": 201}'
+b'{"currValue": 151006, "currName": "bsec_gas", "currTime": 1610080572232.3677, "currBox": 201}'
+{'currTime': 1610080572232.3677, 'currValue': 151006, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 34.63, "currName": "bsec_iaq_static", "currTime": 1610080572232.3677, "currBox": 201}'
+b'{"currValue": 34.63, "currName": "bsec_iaq_static", "currTime": 1610080572232.3677, "currBox": 201}'
+{'currTime': 1610080572232.3677, 'currValue': 34.63, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 538.51, "currName": "bsec_CO2e", "currTime": 1610080572232.3677, "currBox": 201}'
+b'{"currValue": 538.51, "currName": "bsec_CO2e", "currTime": 1610080572232.3677, "currBox": 201}'
+{'currTime': 1610080572232.3677, 'currValue': 538.51, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080572232.3677, "currBox": 201}'
+b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080572232.3677, "currBox": 201}'
+{'currTime': 1610080572232.3677, 'currValue': 0.58, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 39.8, "currName": "bsec_iaq", "currTime": 1610080632226.9258, "currBox": 201}'
+b'{"currValue": 39.8, "currName": "bsec_iaq", "currTime": 1610080632226.9258, "currBox": 201}'
+{'currTime': 1610080632226.9258, 'currValue': 39.8, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610080632226.9258, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610080632226.9258, "currBox": 201}'
+{'currTime': 1610080632226.9258, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.41, "currName": "bsec_humidity", "currTime": 1610080632226.9258, "currBox": 201}'
+b'{"currValue": 38.41, "currName": "bsec_humidity", "currTime": 1610080632226.9258, "currBox": 201}'
+{'currTime': 1610080632226.9258, 'currValue': 38.41, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080632226.9258, "currBox": 201}'
+b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080632226.9258, "currBox": 201}'
+{'currTime': 1610080632226.9258, 'currValue': 1001.58, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 151048, "currName": "bsec_gas", "currTime": 1610080632226.9258, "currBox": 201}'
+b'{"currValue": 151048, "currName": "bsec_gas", "currTime": 1610080632226.9258, "currBox": 201}'
+{'currTime': 1610080632226.9258, 'currValue': 151048, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 34.22, "currName": "bsec_iaq_static", "currTime": 1610080632226.9258, "currBox": 201}'
+b'{"currValue": 34.22, "currName": "bsec_iaq_static", "currTime": 1610080632226.9258, "currBox": 201}'
+{'currTime': 1610080632226.9258, 'currValue': 34.22, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 536.9, "currName": "bsec_CO2e", "currTime": 1610080632226.9258, "currBox": 201}'
+b'{"currValue": 536.9, "currName": "bsec_CO2e", "currTime": 1610080632226.9258, "currBox": 201}'
+{'currTime': 1610080632226.9258, 'currValue': 536.9, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080632226.9258, "currBox": 201}'
+b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080632226.9258, "currBox": 201}'
+{'currTime': 1610080632226.9258, 'currValue': 0.58, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 39.3, "currName": "bsec_iaq", "currTime": 1610080692222.7642, "currBox": 201}'
+b'{"currValue": 39.3, "currName": "bsec_iaq", "currTime": 1610080692222.7642, "currBox": 201}'
+{'currTime': 1610080692222.7642, 'currValue': 39.3, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610080692222.7642, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610080692222.7642, "currBox": 201}'
+{'currTime': 1610080692222.7642, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.41, "currName": "bsec_humidity", "currTime": 1610080692222.7642, "currBox": 201}'
+b'{"currValue": 38.41, "currName": "bsec_humidity", "currTime": 1610080692222.7642, "currBox": 201}'
+{'currTime': 1610080692222.7642, 'currValue': 38.41, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080692222.7642, "currBox": 201}'
+b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080692222.7642, "currBox": 201}'
+{'currTime': 1610080692222.7642, 'currValue': 1001.58, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 151077, "currName": "bsec_gas", "currTime": 1610080692222.7642, "currBox": 201}'
+b'{"currValue": 151077, "currName": "bsec_gas", "currTime": 1610080692222.7642, "currBox": 201}'
+{'currTime': 1610080692222.7642, 'currValue': 151077, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 33.95, "currName": "bsec_iaq_static", "currTime": 1610080692222.7642, "currBox": 201}'
+b'{"currValue": 33.95, "currName": "bsec_iaq_static", "currTime": 1610080692222.7642, "currBox": 201}'
+{'currTime': 1610080692222.7642, 'currValue': 33.95, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 535.81, "currName": "bsec_CO2e", "currTime": 1610080692222.7642, "currBox": 201}'
+b'{"currValue": 535.81, "currName": "bsec_CO2e", "currTime": 1610080692222.7642, "currBox": 201}'
+{'currTime': 1610080692222.7642, 'currValue': 535.81, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.57, "currName": "bsec_VOCe", "currTime": 1610080692222.7642, "currBox": 201}'
+b'{"currValue": 0.57, "currName": "bsec_VOCe", "currTime": 1610080692222.7642, "currBox": 201}'
+{'currTime': 1610080692222.7642, 'currValue': 0.57, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 41.3, "currName": "bsec_iaq", "currTime": 1610080752217.3625, "currBox": 201}'
+b'{"currValue": 41.3, "currName": "bsec_iaq", "currTime": 1610080752217.3625, "currBox": 201}'
+{'currTime': 1610080752217.3625, 'currValue': 41.3, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610080752217.3625, "currBox": 201}'
+b'{"currValue": 30.08, "currName": "bsec_temperature", "currTime": 1610080752217.3625, "currBox": 201}'
+{'currTime': 1610080752217.3625, 'currValue': 30.08, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.41, "currName": "bsec_humidity", "currTime": 1610080752217.3625, "currBox": 201}'
+b'{"currValue": 38.41, "currName": "bsec_humidity", "currTime": 1610080752217.3625, "currBox": 201}'
+{'currTime': 1610080752217.3625, 'currValue': 38.41, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080752217.3625, "currBox": 201}'
+b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080752217.3625, "currBox": 201}'
+{'currTime': 1610080752217.3625, 'currValue': 1001.58, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 150622, "currName": "bsec_gas", "currTime": 1610080752217.3625, "currBox": 201}'
+b'{"currValue": 150622, "currName": "bsec_gas", "currTime": 1610080752217.3625, "currBox": 201}'
+{'currTime': 1610080752217.3625, 'currValue': 150622, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 35.16, "currName": "bsec_iaq_static", "currTime": 1610080752217.3625, "currBox": 201}'
+b'{"currValue": 35.16, "currName": "bsec_iaq_static", "currTime": 1610080752217.3625, "currBox": 201}'
+{'currTime': 1610080752217.3625, 'currValue': 35.16, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 540.63, "currName": "bsec_CO2e", "currTime": 1610080752217.3625, "currBox": 201}'
+b'{"currValue": 540.63, "currName": "bsec_CO2e", "currTime": 1610080752217.3625, "currBox": 201}'
+{'currTime': 1610080752217.3625, 'currValue': 540.63, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080752217.3625, "currBox": 201}'
+b'{"currValue": 0.58, "currName": "bsec_VOCe", "currTime": 1610080752217.3625, "currBox": 201}'
+{'currTime': 1610080752217.3625, 'currValue': 0.58, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 54.8, "currName": "bsec_iaq", "currTime": 1610080812212.2212, "currBox": 201}'
+b'{"currValue": 54.8, "currName": "bsec_iaq", "currTime": 1610080812212.2212, "currBox": 201}'
+{'currTime': 1610080812212.2212, 'currValue': 54.8, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.1, "currName": "bsec_temperature", "currTime": 1610080812212.2212, "currBox": 201}'
+b'{"currValue": 30.1, "currName": "bsec_temperature", "currTime": 1610080812212.2212, "currBox": 201}'
+{'currTime': 1610080812212.2212, 'currValue': 30.1, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.42, "currName": "bsec_humidity", "currTime": 1610080812212.2212, "currBox": 201}'
+b'{"currValue": 38.42, "currName": "bsec_humidity", "currTime": 1610080812212.2212, "currBox": 201}'
+{'currTime': 1610080812212.2212, 'currValue': 38.42, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080812212.2212, "currBox": 201}'
+b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080812212.2212, "currBox": 201}'
+{'currTime': 1610080812212.2212, 'currValue': 1001.58, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 147857, "currName": "bsec_gas", "currTime": 1610080812212.2212, "currBox": 201}'
+b'{"currValue": 147857, "currName": "bsec_gas", "currTime": 1610080812212.2212, "currBox": 201}'
+{'currTime': 1610080812212.2212, 'currValue': 147857, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 43.54, "currName": "bsec_iaq_static", "currTime": 1610080812212.2212, "currBox": 201}'
+b'{"currValue": 43.54, "currName": "bsec_iaq_static", "currTime": 1610080812212.2212, "currBox": 201}'
+{'currTime': 1610080812212.2212, 'currValue': 43.54, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 575.99, "currName": "bsec_CO2e", "currTime": 1610080812212.2212, "currBox": 201}'
+b'{"currValue": 575.99, "currName": "bsec_CO2e", "currTime": 1610080812212.2212, "currBox": 201}'
+{'currTime': 1610080812212.2212, 'currValue': 575.99, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.67, "currName": "bsec_VOCe", "currTime": 1610080812212.2212, "currBox": 201}'
+b'{"currValue": 0.67, "currName": "bsec_VOCe", "currTime": 1610080812212.2212, "currBox": 201}'
+{'currTime': 1610080812212.2212, 'currValue': 0.67, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 77.3, "currName": "bsec_iaq", "currTime": 1610080872204.908, "currBox": 201}'
+b'{"currValue": 77.3, "currName": "bsec_iaq", "currTime": 1610080872204.908, "currBox": 201}'
+{'currTime': 1610080872204.908, 'currValue': 77.3, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.1, "currName": "bsec_temperature", "currTime": 1610080872204.908, "currBox": 201}'
+b'{"currValue": 30.1, "currName": "bsec_temperature", "currTime": 1610080872204.908, "currBox": 201}'
+{'currTime': 1610080872204.908, 'currValue': 30.1, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.43, "currName": "bsec_humidity", "currTime": 1610080872204.908, "currBox": 201}'
+b'{"currValue": 38.43, "currName": "bsec_humidity", "currTime": 1610080872204.908, "currBox": 201}'
+{'currTime': 1610080872204.908, 'currValue': 38.43, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080872204.908, "currBox": 201}'
+b'{"currValue": 1001.58, "currName": "bsec_pressure", "currTime": 1610080872204.908, "currBox": 201}'
+{'currTime': 1610080872204.908, 'currValue': 1001.58, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 143583, "currName": "bsec_gas", "currTime": 1610080872204.908, "currBox": 201}'
+b'{"currValue": 143583, "currName": "bsec_gas", "currTime": 1610080872204.908, "currBox": 201}'
+{'currTime': 1610080872204.908, 'currValue': 143583, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 57.55, "currName": "bsec_iaq_static", "currTime": 1610080872204.908, "currBox": 201}'
+b'{"currValue": 57.55, "currName": "bsec_iaq_static", "currTime": 1610080872204.908, "currBox": 201}'
+{'currTime': 1610080872204.908, 'currValue': 57.55, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 651.26, "currName": "bsec_CO2e", "currTime": 1610080872204.908, "currBox": 201}'
+b'{"currValue": 651.26, "currName": "bsec_CO2e", "currTime": 1610080872204.908, "currBox": 201}'
+{'currTime': 1610080872204.908, 'currValue': 651.26, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 0.85, "currName": "bsec_VOCe", "currTime": 1610080872204.908, "currBox": 201}'
+b'{"currValue": 0.85, "currName": "bsec_VOCe", "currTime": 1610080872204.908, "currBox": 201}'
+{'currTime': 1610080872204.908, 'currValue': 0.85, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 110.0, "currName": "bsec_iaq", "currTime": 1610080932200.2043, "currBox": 201}'
+b'{"currValue": 110.0, "currName": "bsec_iaq", "currTime": 1610080932200.2043, "currBox": 201}'
+{'currTime': 1610080932200.2043, 'currValue': 110.0, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.1, "currName": "bsec_temperature", "currTime": 1610080932200.2043, "currBox": 201}'
+b'{"currValue": 30.1, "currName": "bsec_temperature", "currTime": 1610080932200.2043, "currBox": 201}'
+{'currTime': 1610080932200.2043, 'currValue': 30.1, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.41, "currName": "bsec_humidity", "currTime": 1610080932200.2043, "currBox": 201}'
+b'{"currValue": 38.41, "currName": "bsec_humidity", "currTime": 1610080932200.2043, "currBox": 201}'
+{'currTime': 1610080932200.2043, 'currValue': 38.41, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.59, "currName": "bsec_pressure", "currTime": 1610080932200.2043, "currBox": 201}'
+b'{"currValue": 1001.59, "currName": "bsec_pressure", "currTime": 1610080932200.2043, "currBox": 201}'
+{'currTime': 1610080932200.2043, 'currValue': 1001.59, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 137735, "currName": "bsec_gas", "currTime": 1610080932200.2043, "currBox": 201}'
+b'{"currValue": 137735, "currName": "bsec_gas", "currTime": 1610080932200.2043, "currBox": 201}'
+{'currTime': 1610080932200.2043, 'currValue': 137735, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 77.89, "currName": "bsec_iaq_static", "currTime": 1610080932200.2043, "currBox": 201}'
+b'{"currValue": 77.89, "currName": "bsec_iaq_static", "currTime": 1610080932200.2043, "currBox": 201}'
+{'currTime': 1610080932200.2043, 'currValue': 77.89, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 795.98, "currName": "bsec_CO2e", "currTime": 1610080932200.2043, "currBox": 201}'
+b'{"currValue": 795.98, "currName": "bsec_CO2e", "currTime": 1610080932200.2043, "currBox": 201}'
+{'currTime': 1610080932200.2043, 'currValue': 795.98, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 1.15, "currName": "bsec_VOCe", "currTime": 1610080932200.2043, "currBox": 201}'
+b'{"currValue": 1.15, "currName": "bsec_VOCe", "currTime": 1610080932200.2043, "currBox": 201}'
+{'currTime': 1610080932200.2043, 'currValue': 1.15, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 141.2, "currName": "bsec_iaq", "currTime": 1610080992197.829, "currBox": 201}'
+b'{"currValue": 141.2, "currName": "bsec_iaq", "currTime": 1610080992197.829, "currBox": 201}'
+{'currTime': 1610080992197.829, 'currValue': 141.2, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.1, "currName": "bsec_temperature", "currTime": 1610080992197.829, "currBox": 201}'
+b'{"currValue": 30.1, "currName": "bsec_temperature", "currTime": 1610080992197.829, "currBox": 201}'
+{'currTime': 1610080992197.829, 'currValue': 30.1, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.4, "currName": "bsec_humidity", "currTime": 1610080992197.829, "currBox": 201}'
+b'{"currValue": 38.4, "currName": "bsec_humidity", "currTime": 1610080992197.829, "currBox": 201}'
+{'currTime': 1610080992197.829, 'currValue': 38.4, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.6, "currName": "bsec_pressure", "currTime": 1610080992197.829, "currBox": 201}'
+b'{"currValue": 1001.6, "currName": "bsec_pressure", "currTime": 1610080992197.829, "currBox": 201}'
+{'currTime': 1610080992197.829, 'currValue': 1001.6, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 132629, "currName": "bsec_gas", "currTime": 1610080992197.829, "currBox": 201}'
+b'{"currValue": 132629, "currName": "bsec_gas", "currTime": 1610080992197.829, "currBox": 201}'
+{'currTime': 1610080992197.829, 'currValue': 132629, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 97.26, "currName": "bsec_iaq_static", "currTime": 1610080992197.829, "currBox": 201}'
+b'{"currValue": 97.26, "currName": "bsec_iaq_static", "currTime": 1610080992197.829, "currBox": 201}'
+{'currTime': 1610080992197.829, 'currValue': 97.26, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 973.06, "currName": "bsec_CO2e", "currTime": 1610080992197.829, "currBox": 201}'
+b'{"currValue": 973.06, "currName": "bsec_CO2e", "currTime": 1610080992197.829, "currBox": 201}'
+{'currTime': 1610080992197.829, 'currValue': 973.06, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 1.55, "currName": "bsec_VOCe", "currTime": 1610080992197.829, "currBox": 201}'
+b'{"currValue": 1.55, "currName": "bsec_VOCe", "currTime": 1610080992197.829, "currBox": 201}'
+{'currTime': 1610080992197.829, 'currValue': 1.55, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 167.9, "currName": "bsec_iaq", "currTime": 1610081052188.6072, "currBox": 201}'
+b'{"currValue": 167.9, "currName": "bsec_iaq", "currTime": 1610081052188.6072, "currBox": 201}'
+{'currTime': 1610081052188.6072, 'currValue': 167.9, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.11, "currName": "bsec_temperature", "currTime": 1610081052188.6072, "currBox": 201}'
+b'{"currValue": 30.11, "currName": "bsec_temperature", "currTime": 1610081052188.6072, "currBox": 201}'
+{'currTime': 1610081052188.6072, 'currValue': 30.11, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.38, "currName": "bsec_humidity", "currTime": 1610081052188.6072, "currBox": 201}'
+b'{"currValue": 38.38, "currName": "bsec_humidity", "currTime": 1610081052188.6072, "currBox": 201}'
+{'currTime': 1610081052188.6072, 'currValue': 38.38, 'currName': 'bsec_humidity', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/pressure 0 b'{"currValue": 1001.6, "currName": "bsec_pressure", "currTime": 1610081052188.6072, "currBox": 201}'
+b'{"currValue": 1001.6, "currName": "bsec_pressure", "currTime": 1610081052188.6072, "currBox": 201}'
+{'currTime': 1610081052188.6072, 'currValue': 1001.6, 'currName': 'bsec_pressure', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/gas 0 b'{"currValue": 128438, "currName": "bsec_gas", "currTime": 1610081052188.6072, "currBox": 201}'
+b'{"currValue": 128438, "currName": "bsec_gas", "currTime": 1610081052188.6072, "currBox": 201}'
+{'currTime': 1610081052188.6072, 'currValue': 128438, 'currName': 'bsec_gas', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq_static 0 b'{"currValue": 113.81, "currName": "bsec_iaq_static", "currTime": 1610081052188.6072, "currBox": 201}'
+b'{"currValue": 113.81, "currName": "bsec_iaq_static", "currTime": 1610081052188.6072, "currBox": 201}'
+{'currTime': 1610081052188.6072, 'currValue': 113.81, 'currName': 'bsec_iaq_static', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/CO2e 0 b'{"currValue": 1138.06, "currName": "bsec_CO2e", "currTime": 1610081052188.6072, "currBox": 201}'
+b'{"currValue": 1138.06, "currName": "bsec_CO2e", "currTime": 1610081052188.6072, "currBox": 201}'
+{'currTime': 1610081052188.6072, 'currValue': 1138.06, 'currName': 'bsec_CO2e', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/VOCe 0 b'{"currValue": 1.95, "currName": "bsec_VOCe", "currTime": 1610081052188.6072, "currBox": 201}'
+b'{"currValue": 1.95, "currName": "bsec_VOCe", "currTime": 1610081052188.6072, "currBox": 201}'
+{'currTime': 1610081052188.6072, 'currValue': 1.95, 'currName': 'bsec_VOCe', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/iaq 0 b'{"currValue": 184.9, "currName": "bsec_iaq", "currTime": 1610081112178.0874, "currBox": 201}'
+b'{"currValue": 184.9, "currName": "bsec_iaq", "currTime": 1610081112178.0874, "currBox": 201}'
+{'currTime': 1610081112178.0874, 'currValue': 184.9, 'currName': 'bsec_iaq', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/temperature 0 b'{"currValue": 30.11, "currName": "bsec_temperature", "currTime": 1610081112178.0874, "currBox": 201}'
+b'{"currValue": 30.11, "currName": "bsec_temperature", "currTime": 1610081112178.0874, "currBox": 201}'
+{'currTime': 1610081112178.0874, 'currValue': 30.11, 'currName': 'bsec_temperature', 'currBox': 201}
+{'result':'Records inserted successfully.'}
+<Response [200]>
+{'result':'Records inserted successfully.'}
+bsec/humidity 0 b'{"currValue": 38.37, "currName": "bsec_humidity", "currTime": 1610081112178.0874, "currBox": 201}'
+b'{"currValue": 38.37, "currName": "bsec_humidity", "currTime": 1610081112178.0874, "currBox": 201}'

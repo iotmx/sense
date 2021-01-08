@@ -3145,3 +3145,176 @@ PM10 : 10 ug/m3
 Temperature: 30.31 deg C Pressure: 1001.75 hPa Humidity: 38.86 % Gas: 146801 ohm Altitude = 184.928311 meters
 PM2.5: 5 ug/m3
 PM10 : 8 ug/m3
+Temperature: 30.20 deg C Pressure: 1001.72 hPa Humidity: 38.63 % Gas: 146544 ohm Altitude = 185.169098 meters
+PM2.5: 7 ug/m3
+PM10 : 10 ug/m3
+Temperature: -126.28 deg C Pressure: 1252.19 hPa Humidity: 100.00 % Gas: 16383 ohm Altitude = -1730.015500 meters
+PM2.5: 5 ug/m3
+PM10 : 8 ug/m3
+Temperature: 30.15 deg C Pressure: 1001.68 hPa Humidity: 38.48 % Gas: 144272 ohm Altitude = 185.501819 meters
+PM2.5: 6 ug/m3
+PM10 : 9 ug/m3
+Temperature: 30.13 deg C Pressure: 1001.64 hPa Humidity: 38.41 % Gas: 143530 ohm Altitude = 185.857880 meters
+PM2.5: 6 ug/m3
+PM10 : 9 ug/m3
+Temperature: 30.10 deg C Pressure: 1001.66 hPa Humidity: 38.32 % Gas: 141829 ohm Altitude = 185.664249 meters
+PM2.5: 9 ug/m3
+PM10 : 13 ug/m3
+Temperature: 30.37 deg C Pressure: 1001.67 hPa Humidity: 38.43 % Gas: 148889 ohm Altitude = 185.602479 meters
+PM2.5: 11 ug/m3
+PM10 : 16 ug/m3
+Temperature: 30.15 deg C Pressure: 1001.65 hPa Humidity: 38.34 % Gas: 144771 ohm Altitude = 185.757086 meters
+PM2.5: 13 ug/m3
+PM10 : 18 ug/m3
+Temperature: 30.10 deg C Pressure: 1001.62 hPa Humidity: 38.37 % Gas: 140402 ohm Altitude = 186.014680 meters
+PM2.5: 15 ug/m3
+PM10 : 21 ug/m3
+Temperature: 30.17 deg C Pressure: 1001.66 hPa Humidity: 38.31 % Gas: 143654 ohm Altitude = 185.708472 meters
+PM2.5: 15 ug/m3
+PM10 : 21 ug/m3
+Temperature: 30.11 deg C Pressure: 1001.67 hPa Humidity: 38.40 % Gas: 139351 ohm Altitude = 185.605866 meters
+PM2.5: 18 ug/m3
+PM10 : 25 ug/m3
+Temperature: 30.30 deg C Pressure: 1001.70 hPa Humidity: 38.49 % Gas: 145779 ohm Altitude = 185.391613 meters
+PM2.5: 19 ug/m3
+PM10 : 26 ug/m3
+Temperature: 30.20 deg C Pressure: 1001.64 hPa Humidity: 38.49 % Gas: 142070 ohm Altitude = 185.882304 meters
+PM2.5: 35 ug/m3
+PM10 : 49 ug/m3
+Temperature: 30.11 deg C Pressure: 1001.61 hPa Humidity: 38.53 % Gas: 136512 ohm Altitude = 186.113121 meters
+PM2.5: 29 ug/m3
+PM10 : 41 ug/m3
+Temperature: 30.41 deg C Pressure: 1001.60 hPa Humidity: 38.59 % Gas: 144896 ohm Altitude = 186.195087 meters
+PM2.5: 31 ug/m3
+PM10 : 44 ug/m3
+Temperature: 30.25 deg C Pressure: 1001.60 hPa Humidity: 38.46 % Gas: 142918 ohm Altitude = 186.175257 meters
+PM2.5: 30 ug/m3
+PM10 : 42 ug/m3
+Temperature: 30.16 deg C Pressure: 1001.56 hPa Humidity: 38.42 % Gas: 140402 ohm Altitude = 186.526170 meters
+PM2.5: 29 ug/m3
+PM10 : 41 ug/m3
+Temperature: 30.33 deg C Pressure: 1001.62 hPa Humidity: 38.56 % Gas: 142796 ohm Altitude = 185.993324 meters
+PM2.5: 29 ug/m3
+PM10 : 41 ug/m3
+Temperature: 30.17 deg C Pressure: 1001.59 hPa Humidity: 38.43 % Gas: 139583 ohm Altitude = 186.276571 meters
+PM2.5: 24 ug/m3
+PM10 : 33 ug/m3
+Temperature: 30.38 deg C Pressure: 1001.59 hPa Humidity: 38.44 % Gas: 145906 ohm Altitude = 186.283469 meters
+PM2.5: 23 ug/m3
+PM10 : 32 ug/m3
+Temperature: 30.23 deg C Pressure: 1001.59 hPa Humidity: 38.13 % Gas: 146288 ohm Altitude = 186.277651 meters
+PM2.5: 21 ug/m3
+PM10 : 29 ug/m3
+Temperature: 30.21 deg C Pressure: 1001.54 hPa Humidity: 38.01 % Gas: 146673 ohm Altitude = 186.682097 meters
+PM2.5: 20 ug/m3
+PM10 : 28 ug/m3
+Temperature: 30.13 deg C Pressure: 1001.54 hPa Humidity: 38.08 % Gas: 143777 ohm Altitude = 186.709716 meters
+PM2.5: 17 ug/m3
+PM10 : 24 ug/m3
+Temperature: 30.25 deg C Pressure: 1001.57 hPa Humidity: 38.07 % Gas: 147577 ohm Altitude = 186.410411 meters
+no datax
+Temperature: 30.41 deg C Pressure: 1001.59 hPa Humidity: 38.06 % Gas: 151721 ohm Altitude = 186.316103 meters
+PM2.5: 15 ug/m3
+PM10 : 21 ug/m3
+Temperature: 30.22 deg C Pressure: 1001.57 hPa Humidity: 37.63 % Gas: 150629 ohm Altitude = 186.468762 meters
+PM2.5: 12 ug/m3
+PM10 : 17 ug/m3
+Temperature: 30.16 deg C Pressure: 1001.53 hPa Humidity: 37.81 % Gas: 144896 ohm Altitude = 186.745490 meters
+PM2.5: 14 ug/m3
+PM10 : 20 ug/m3
+Temperature: 30.21 deg C Pressure: 1001.51 hPa Humidity: 37.78 % Gas: 148361 ohm Altitude = 186.948867 meters
+PM2.5: 11 ug/m3
+PM10 : 16 ug/m3
+Temperature: 30.17 deg C Pressure: 1001.52 hPa Humidity: 37.75 % Gas: 145906 ohm Altitude = 186.904622 meters
+PM2.5: 11 ug/m3
+PM10 : 16 ug/m3
+Temperature: 30.17 deg C Pressure: 1001.53 hPa Humidity: 37.69 % Gas: 145779 ohm Altitude = 186.791654 meters
+PM2.5: 11 ug/m3
+PM10 : 16 ug/m3
+Temperature: 30.32 deg C Pressure: 1001.55 hPa Humidity: 37.78 % Gas: 149021 ohm Altitude = 186.641710 meters
+PM2.5: 11 ug/m3
+PM10 : 16 ug/m3
+Temperature: 30.22 deg C Pressure: 1001.55 hPa Humidity: 37.76 % Gas: 147318 ohm Altitude = 186.587089 meters
+PM2.5: 10 ug/m3
+PM10 : 14 ug/m3
+Temperature: 30.19 deg C Pressure: 1001.51 hPa Humidity: 37.67 % Gas: 146161 ohm Altitude = 186.927848 meters
+PM2.5: 9 ug/m3
+PM10 : 13 ug/m3
+Temperature: -126.28 deg C Pressure: 1252.19 hPa Humidity: 100.00 % Gas: 16383 ohm Altitude = -1730.015500 meters
+PM2.5: 9 ug/m3
+PM10 : 13 ug/m3
+Temperature: 30.43 deg C Pressure: 1001.52 hPa Humidity: 37.68 % Gas: 151173 ohm Altitude = 186.822865 meters
+PM2.5: 8 ug/m3
+PM10 : 12 ug/m3
+Temperature: 30.21 deg C Pressure: 1001.56 hPa Humidity: 37.44 % Gas: 149021 ohm Altitude = 186.514380 meters
+PM2.5: 6 ug/m3
+PM10 : 9 ug/m3
+Temperature: 30.19 deg C Pressure: 1001.58 hPa Humidity: 37.21 % Gas: 150224 ohm Altitude = 186.338715 meters
+PM2.5: 6 ug/m3
+PM10 : 9 ug/m3
+Temperature: 30.47 deg C Pressure: 1001.57 hPa Humidity: 37.50 % Gas: 154663 ohm Altitude = 186.426524 meters
+PM2.5: 6 ug/m3
+PM10 : 9 ug/m3
+Temperature: 30.23 deg C Pressure: 1001.57 hPa Humidity: 37.30 % Gas: 151447 ohm Altitude = 186.447522 meters
+PM2.5: 5 ug/m3
+PM10 : 8 ug/m3
+Temperature: 30.20 deg C Pressure: 1001.52 hPa Humidity: 37.16 % Gas: 150224 ohm Altitude = 186.822837 meters
+PM2.5: 4 ug/m3
+PM10 : 6 ug/m3
+Temperature: 30.19 deg C Pressure: 1001.55 hPa Humidity: 37.22 % Gas: 148361 ohm Altitude = 186.609658 meters
+PM2.5: 6 ug/m3
+PM10 : 9 ug/m3
+Temperature: 30.25 deg C Pressure: 1001.52 hPa Humidity: 37.29 % Gas: 150765 ohm Altitude = 186.833035 meters
+PM2.5: 6 ug/m3
+PM10 : 9 ug/m3
+Temperature: 30.22 deg C Pressure: 1001.54 hPa Humidity: 37.25 % Gas: 149955 ohm Altitude = 186.717830 meters
+PM2.5: 5 ug/m3
+PM10 : 8 ug/m3
+Temperature: 30.20 deg C Pressure: 1001.55 hPa Humidity: 37.26 % Gas: 148361 ohm Altitude = 186.653688 meters
+PM2.5: 5 ug/m3
+PM10 : 8 ug/m3
+Temperature: 30.16 deg C Pressure: 1001.51 hPa Humidity: 37.35 % Gas: 145399 ohm Altitude = 186.911231 meters
+PM2.5: 5 ug/m3
+PM10 : 8 ug/m3
+Temperature: 30.39 deg C Pressure: 1001.53 hPa Humidity: 37.39 % Gas: 152411 ohm Altitude = 186.799921 meters
+PM2.5: 6 ug/m3
+PM10 : 9 ug/m3
+Temperature: 30.19 deg C Pressure: 1001.54 hPa Humidity: 37.25 % Gas: 149154 ohm Altitude = 186.718700 meters
+PM2.5: 6 ug/m3
+PM10 : 9 ug/m3
+Temperature: 30.17 deg C Pressure: 1001.53 hPa Humidity: 37.20 % Gas: 147707 ohm Altitude = 186.773615 meters
+PM2.5: 5 ug/m3
+PM10 : 8 ug/m3
+Temperature: 30.22 deg C Pressure: 1001.58 hPa Humidity: 37.18 % Gas: 151310 ohm Altitude = 186.336852 meters
+PM2.5: 5 ug/m3
+PM10 : 8 ug/m3
+Temperature: 30.16 deg C Pressure: 1001.58 hPa Humidity: 37.23 % Gas: 146801 ohm Altitude = 186.342396 meters
+PM2.5: 4 ug/m3
+PM10 : 6 ug/m3
+Temperature: 30.34 deg C Pressure: 1001.59 hPa Humidity: 37.20 % Gas: 152968 ohm Altitude = 186.242851 meters
+PM2.5: 5 ug/m3
+PM10 : 8 ug/m3
+Temperature: 30.24 deg C Pressure: 1001.59 hPa Humidity: 37.18 % Gas: 152411 ohm Altitude = 186.237133 meters
+PM2.5: 5 ug/m3
+PM10 : 8 ug/m3
+Temperature: 30.18 deg C Pressure: 1001.57 hPa Humidity: 37.01 % Gas: 151584 ohm Altitude = 186.414803 meters
+PM2.5: 4 ug/m3
+PM10 : 6 ug/m3
+Temperature: 30.41 deg C Pressure: 1001.58 hPa Humidity: 37.06 % Gas: 156104 ohm Altitude = 186.380874 meters
+no datax
+Temperature: 30.18 deg C Pressure: 1001.56 hPa Humidity: 36.90 % Gas: 152273 ohm Altitude = 186.562059 meters
+PM2.5: 5 ug/m3
+PM10 : 8 ug/m3
+Temperature: 30.31 deg C Pressure: 1001.54 hPa Humidity: 36.98 % Gas: 155669 ohm Altitude = 186.697487 meters
+PM2.5: 3 ug/m3
+PM10 : 5 ug/m3
+Temperature: 30.21 deg C Pressure: 1001.54 hPa Humidity: 37.00 % Gas: 153108 ohm Altitude = 186.717113 meters
+PM2.5: 4 ug/m3
+PM10 : 6 ug/m3
+Temperature: 30.38 deg C Pressure: 1001.55 hPa Humidity: 37.10 % Gas: 154378 ohm Altitude = 186.605120 meters
+PM2.5: 4 ug/m3
+PM10 : 6 ug/m3
+Temperature: 30.25 deg C Pressure: 1001.58 hPa Humidity: 36.99 % Gas: 154094 ohm Altitude = 186.336904 meters
+PM2.5: 4 ug/m3
+PM10 : 6 ug/m3
+Temperature: 30.18 deg C Pressure: 1001.62 hPa Humidity: 36.97 %
