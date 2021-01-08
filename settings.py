@@ -3,7 +3,7 @@
 #Settings file
 
 #Environment Box number
-currBox        = 201
+currBox        = 200
 
 #Sample time in minutes
 #Temp, Humidity and Atm Pressure Sensor (BME)

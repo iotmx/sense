@@ -1,0 +1,14 @@
+echo co2
+mysql --user=pi --password="Un1t3c" hbox -B -e "select currTime, currValue from carbondioxide where (currTime between '2019-12-13' and '2020-02-12');" | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > eco2.csv
+echo dust
+mysql --user=pi --password="Un1t3c" hbox -B -e "select currTime, currValue from dust where currTime between '2019-12-13' and '2020-02-12';" | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > dust.csv
+echo hcho
+mysql --user=pi --password="Un1t3c" hbox -B -e "select currTime, currValue from formaldehyde where currTime between '2019-12-13' and '2020-02-12';" | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > hcho.csv
+echo humidity
+mysql --user=pi --password="Un1t3c" hbox -B -e "select currTime, currValue from humidity where currTime between '2019-12-13' and '2020-02-12';" | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > humidity.csv
+echo pressure
+mysql --user=pi --password="Un1t3c" hbox -B -e "select currTime, currValue from pressure where currTime between '2019-12-13' and '2020-02-12';" | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > pressure.csv
+echo temperature
+mysql --user=pi --password="Un1t3c" hbox -B -e "select currTime, currValue from temperature where currTime between '2019-12-13' and '2020-02-12';" | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > temperature.csv
+echo tvoc
+mysql --user=pi --password="Un1t3c" hbox -B -e "select currTime, currValue from tvoc where currTime between '2019-12-13' and '2020-02-12';" | sed "s/'/\'/;s/\t/\",\"/g;s/^/\"/;s/$/\"/;s/\n//g" > tvoc.csv

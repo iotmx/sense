@@ -1,4 +1,0 @@
-# Launching python scripts on Startup
-# https://www.instructables.com/Raspberry-Pi-Launch-Python-script-on-startup/
-# sudo crontab -e
-

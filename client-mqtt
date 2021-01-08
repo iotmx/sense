@@ -4,8 +4,7 @@
 import json
 import requests
 import paho.mqtt.client as mqtt
-from hbox_settings import *
-from ThingSpeakUpdate import *
+from   settings import *
 import RPi.GPIO as GPIO
 import time
 
@@ -45,25 +44,31 @@ def on_disconnect(mqttc, obj, flags, rc):
 def on_message(mqttc, obj, msg):
     print(msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
     try:
-        print(enable_post)
-        print(localhosturl)
-        print(msg.payload)
-        print(headers)
+        # r = requests.post(localhosturl, data = json.loads(msg.payload.decode("utf-8")), headers = headers )
+        # print(r.text)
         if enable_post and enable_local:
-           r = requests.post(localhosturl, data = json.loads(msg.payload), headers = headers )
-           print(r.response)
-           time.sleep(3)
-           if 'error' in r.text:
-              err_blink()
-           else:
-              ack_blink()
-           print(r)
+           print(msg.payload)
+           try:
+              r = requests.post(localhosturl, data = json.loads(msg.payload.decode("utf-8")), headers = headers )
+              print(json.loads(msg.payload.decode("utf-8")))
+              print(r.text)
+              time.sleep(3)
+              if 'error' in r.text:
+                 err_blink()
+              else:
+                 ack_blink()
+           except:
+              pass
         if enable_post and enable_external:
-           r = requests.post(hosturl,      data = json.loads(msg.payload), headers = headers )
-           if 'error' in r.text:
-              err_blink()
-           else:
-              ack_blink()
+           try:
+              r = requests.post(hosturl,      data = json.loads(msg.payload.decode("utf-8")), headers = headers )
+              print(r.text)
+              if 'error' in r.text:
+                 err_blink()
+              else:
+                 ack_blink()
+           except:
+              pass
     except IOError:
         print("Error")
         err_blink()
