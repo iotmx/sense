@@ -21,7 +21,6 @@ using_hcho     = 0
 using_hpma     = 1
 
 #{REST}
-enable_post     = 1
 enable_local    = 1
 enable_external = 1
 localhosturl    = "http://localhost/senddata.php"

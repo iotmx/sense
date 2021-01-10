@@ -30,18 +30,18 @@ GPIO.setwarnings(False)
 
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
-GPIO.setup(conPin, GPIO.OUT)
-GPIO.setup(errPin, GPIO.OUT)
-GPIO.setup(ackPin, GPIO.OUT)
-GPIO.setup(mux_s0,   GPIO.OUT)
-GPIO.setup(mux_s1,   GPIO.OUT)
+GPIO.setup(conPin,  GPIO.OUT)
+GPIO.setup(errPin,  GPIO.OUT)
+GPIO.setup(ackPin,  GPIO.OUT)
+GPIO.setup(mux_s0,  GPIO.OUT)
+GPIO.setup(mux_s1,  GPIO.OUT)
 
 GPIO.output(conPin, GPIO.LOW)
 GPIO.output(errPin, GPIO.LOW)
 GPIO.output(ackPin, GPIO.LOW)
 
-GPIO.output(mux_s0,   1)
-GPIO.output(mux_s1,   0)
+GPIO.output(mux_s0, 1)
+GPIO.output(mux_s1, 0)
 
 # BME680
 if using_bme680:
@@ -70,8 +70,12 @@ def is_internet_on():
    try:
       urllib.request.urlopen('http://216.58.200.110', timeout = 2)
       GPIO.output(conPin, GPIO.HIGH)
-   except:
+      time.sleep(0.2)
       GPIO.output(conPin, GPIO.LOW)
+   except:
+      GPIO.output(errPin, GPIO.HIGH)
+      time.sleep(0.2)
+      GPIO.output(errPin, GPIO.LOW)
 
 def bme680_():
    if using_bme680:
@@ -88,7 +92,7 @@ def bme680_():
          payload = [("bme/temperature", json.dumps({"currName" : "temperature", "currBox" : currBox, "currValue" : currTemperature, "currTime" : ts}), 0, False),
                     (   "bme/pressure", json.dumps({"currName" :    "pressure", "currBox" : currBox, "currValue" :    currPressure, "currTime" : ts}), 0, False),
                     (   "bme/altitude", json.dumps({"currName" :    "altitude", "currBox" : currBox, "currValue" :    currAltitude, "currTime" : ts}), 0, False),
-                    (   "bme/gas",      json.dumps({"currName" :         "gas", "currBox" : currBox, "currValue" :    currGas, "currTime" : ts}), 0, False),
+                    (   "bme/gas",      json.dumps({"currName" :         "gas", "currBox" : currBox, "currValue" :    currGas,      "currTime" : ts}), 0, False),
                     (   "bme/humidity", json.dumps({"currName" :    "humidity", "currBox" : currBox, 'currValue' :    currHumidity, 'currTime' : ts}), 0, False)]
          publish.multiple(payload, hostname="localhost")
 
@@ -161,13 +165,15 @@ def hcho_():
          print ("Error")
       except:
          err_blink()
-         pass
 
-schedule.every(15).seconds.do(is_internet_on)
+schedule.every(1.5).seconds.do(is_internet_on)
 schedule.every(st_bme680).minute.at(":00").do(bme680_)
 schedule.every(st_hcho).minute.at(":00").do(hcho_)
 schedule.every(st_hpma).minute.at(":00").do(hpma_)
 
 while True:
-   schedule.run_pending()
-   time.sleep(2)  #number of seconds, can be a float
+   try:
+      schedule.run_pending()
+   except:
+      err_blink()
+   time.sleep(0.5)  #number of seconds, can be a float

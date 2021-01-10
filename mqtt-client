@@ -26,14 +26,14 @@ def err_blink():
     GPIO.output(errPin, GPIO.HIGH)
     time.sleep(0.1)
     GPIO.output(errPin, GPIO.LOW)
-    time.sleep(0.1)
-    GPIO.output(errPin, GPIO.HIGH)
-    time.sleep(0.1)
-    GPIO.output(errPin, GPIO.LOW)
-    time.sleep(0.1)
-    GPIO.output(errPin, GPIO.HIGH)
-    time.sleep(0.1)
-    GPIO.output(errPin, GPIO.LOW)
+    # time.sleep(0.1)
+    # GPIO.output(errPin, GPIO.HIGH)
+    # time.sleep(0.1)
+    #GPIO.output(errPin, GPIO.LOW)
+    # time.sleep(0.1)
+    # GPIO.output(errPin, GPIO.HIGH)
+    # time.sleep(0.1)
+    # GPIO.output(errPin, GPIO.LOW)
 
 def on_connect(mqttc, obj, flags, rc):
     print("rc: " + str(rc))
@@ -43,35 +43,34 @@ def on_disconnect(mqttc, obj, flags, rc):
 
 def on_message(mqttc, obj, msg):
     print(msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
-    try:
+#    try:
         # r = requests.post(localhosturl, data = json.loads(msg.payload.decode("utf-8")), headers = headers )
         # print(r.text)
-        if enable_post and enable_local:
-           print(msg.payload)
+    if enable_local:
            try:
               r = requests.post(localhosturl, data = json.loads(msg.payload.decode("utf-8")), headers = headers )
-              print(json.loads(msg.payload.decode("utf-8")))
-              print(r.text)
-              time.sleep(3)
               if 'error' in r.text:
                  err_blink()
+                 print(json.loads(msg.payload.decode("utf-8")))
+                 print(r.text)
               else:
                  ack_blink()
            except:
               pass
-        if enable_post and enable_external:
+    if enable_external:
            try:
               r = requests.post(hosturl,      data = json.loads(msg.payload.decode("utf-8")), headers = headers )
-              print(r.text)
               if 'error' in r.text:
                  err_blink()
+                 print(json.loads(msg.payload.decode("utf-8")))
+                 print(r.text)
               else:
                  ack_blink()
            except:
               pass
-    except IOError:
-        print("Error")
-        err_blink()
+#    except IOError:
+#        print("Error")
+#        err_blink()
 
 
 def on_publish(mqttc, obj, mid):
