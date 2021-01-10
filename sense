@@ -2,19 +2,21 @@
 
 #by Guillermo Ramirez-Prado
 
-import schedule
+import serial
 import time
 import datetime
-import paho.mqtt.publish as publish
-import json
-import serial
+import schedule
 import RPi.GPIO as GPIO
-from settings import *
-from uartport import *
+import json
 import urllib.request
 import board
-from busio import I2C
 import adafruit_bme680
+import requests
+import paho.mqtt.publish as publish
+import paho.mqtt.client as mqtt
+from settings import *
+from uartport import *
+from busio import I2C
 
 # Set serial port
 ser = serial.Serial(
@@ -57,14 +59,68 @@ if using_bme680:
    # separate temperature sensor to calibrate this one.
    temperature_offset = -5
 
+def ack_blink():
+    GPIO.output(ackPin, GPIO.HIGH)
+    time.sleep(0.1)
+    GPIO.output(ackPin, GPIO.LOW)
+
 def err_blink():
     GPIO.output(errPin, GPIO.HIGH)
     time.sleep(0.1)
     GPIO.output(errPin, GPIO.LOW)
-    time.sleep(0.1)
-    GPIO.output(errPin, GPIO.HIGH)
-    time.sleep(0.1)
-    GPIO.output(errPin, GPIO.LOW)
+    # time.sleep(0.1)
+    # GPIO.output(errPin, GPIO.HIGH)
+    # time.sleep(0.1)
+    # GPIO.output(errPin, GPIO.LOW)
+    # time.sleep(0.1)
+    # GPIO.output(errPin, GPIO.HIGH)
+    # time.sleep(0.1)
+    # GPIO.output(errPin, GPIO.LOW)
+
+def on_connect(mqttc, obj, flags, rc):
+    print("rc: " + str(rc))
+
+def on_disconnect(mqttc, obj, flags, rc):
+    pass
+
+def on_message(mqttc, obj, msg):
+    print(msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
+#    try:
+        # r = requests.post(localhosturl, data = json.loads(msg.payload.decode("utf-8")), headers = headers )
+        # print(r.text)
+    if enable_local:
+           try:
+              r = requests.post(localhosturl, data = json.loads(msg.payload.decode("utf-8")), headers = headers )
+              if 'error' in r.text:
+                 err_blink()
+                 print(json.loads(msg.payload.decode("utf-8")))
+                 print(r.text)
+              else:
+                 ack_blink()
+           except:
+              print("Error")
+              err_blink()
+    if enable_external:
+           try:
+              r = requests.post(hosturl,      data = json.loads(msg.payload.decode("utf-8")), headers = headers )
+              if 'error' in r.text:
+                 err_blink()
+                 print(json.loads(msg.payload.decode("utf-8")))
+                 print(r.text)
+              else:
+                 ack_blink()
+           except:
+              print("Error")
+              err_blink()
+
+def on_publish(mqttc, obj, mid):
+    print("mid: " + str(mid))
+
+def on_subscribe(mqttc, obj, mid, granted_qos):
+    print("Subscribed: " + str(mid) + " " + str(granted_qos))
+
+def on_log(mqttc, obj, level, string):
+    print(string)
 
 def is_internet_on():
    try:
@@ -98,7 +154,7 @@ def bme680_():
 
       except IOError:
          err_blink()
-         print("Error")
+         print("Error on bme680_()")
 
 def hpma_():
    if using_hpma:
@@ -128,15 +184,14 @@ def hpma_():
                   publish.multiple(payload, hostname="localhost")
                except IOError:
                   err_blink()
-                  print("Error")
-
+                  print("Error on hpma_(), trying to publish payload")
             else:
-               print("no data")
+               print("Error on hpma_(), no data")
          else:
-            print("no datax")
+            print("Error on hpma_(), no data")
       except Exception as ex:
          err_blink()
-         print(ex)
+         print("Error on hpma_(), exception on reading")
       finally:
          ser.close()
 
@@ -156,17 +211,29 @@ def hcho_():
                publish.multiple(payload, hostname="localhost")
             except IOError:
                err_blink()
-               print("Error")
+               print("Error on hcho_(), trying to publish payload")
 
             print("HCHO: {0:0.2f} ppm".format(currHCHO)) #Sensor resolution 0.01
 
       except IOError:
          err_blink()
-         print ("Error")
+         print ("Error on hcho_(), exception on reading")
       except:
          err_blink()
+         print ("Error on hcho_(), exception on reading")
 
-schedule.every(1.5).seconds.do(is_internet_on)
+mqttc = mqtt.Client()
+mqttc.on_message = on_message
+mqttc.on_connect = on_connect
+mqttc.on_disconnect = on_disconnect
+mqttc.on_publish = on_publish
+mqttc.on_subscribe = on_subscribe
+# Uncomment to enable debug messages
+# mqttc.on_log = on_log
+mqttc.connect("localhost", 1883, 60)
+mqttc.subscribe("#", 0)
+
+schedule.every(2).seconds.do(is_internet_on)
 schedule.every(st_bme680).minute.at(":00").do(bme680_)
 schedule.every(st_hcho).minute.at(":00").do(hcho_)
 schedule.every(st_hpma).minute.at(":00").do(hpma_)
@@ -174,6 +241,9 @@ schedule.every(st_hpma).minute.at(":00").do(hpma_)
 while True:
    try:
       schedule.run_pending()
+      mqttc.loop(0.5)
+      time.sleep(0.5)  #number of seconds, can be a float
+   except KeyboardInterrumpt:
+      err_blink()
    except:
       err_blink()
-   time.sleep(0.5)  #number of seconds, can be a float
