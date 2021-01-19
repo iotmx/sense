@@ -8,22 +8,20 @@ currBox        = 200
 #Sample time in minutes
 #Temp, Humidity and Atm Pressure Sensor (BME)
 st_bme680      = 1
-#HCHO Sensor
-st_hcho        = 1
 #HPMA
 st_hpma        = 1
 
 # Using the BME  (0 NO, 1 YES)
 using_bme680   = 1
-# Using the HCHO (0 NO, 1 YES)
-using_hcho     = 0
 # Using the HPMA (0 NO, 1 YES)
 using_hpma     = 1
 
-#{REST}
-enable_local    = 0
+# enable_local enables saving data on local wisp uSD card.
+enable_local    = 1
+
+# Disclaimer:
+# enable_external enables posting data in a database hosted at Unitec repositories.
 enable_external = 1
-localhosturl    = "http://localhost/senddata.php"
 hosturl         = "http://dochyper.unitec.ac.nz/Techweek/senddata.php"
 headers         = {'Content-type':'application/x-www-form-urlencoded'}
 
@@ -47,3 +45,7 @@ b25 = 0
 
 m10 = 1
 b10 = 0
+
+# BME680 Adafruit libraries parameters
+bme_sea_level_pressure = 1024
+bme_temperature_offset = -5

@@ -39,7 +39,20 @@ import paho.mqtt.client as mqtt
 from systemd import journal
 from systemd import daemon
 from bseclib import BSECLibrary
+# Additional Modules
+import mysql.connector
+from datetime import datetime
+import sys
+sys.path.insert(1, '/opt/sense')
+from settings import *
 
+# SQL connector init
+mydb = mysql.connector.connect(
+   host     = "localhost",
+   user     = "wisp",
+   database = "wisp",
+   password = "w1sp#$"
+)
 
 ### Main Loop Function
 def main():
@@ -152,26 +165,45 @@ def main():
                 IAQ_Accuracy, IAQ, Temperature, Humidity, Pressure, Gas, IAQ_Static, CO2e, VOCe))
 
             # Publish data to MQTT.
-            # mqttc.publish('{}/iaq_accuracy'.format(mqtt_topic), payload=IAQ_Accuracy, retain=True)
-            # mqttc.publish('{}/iaq'.format(mqtt_topic), payload=IAQ, retain=True)
-            # mqttc.publish('{}/temperature'.format(mqtt_topic), payload=Temperature, retain=True)
-            # mqttc.publish('{}/humidity'.format(mqtt_topic), payload=Humidity, retain=True)
-            # mqttc.publish('{}/pressure'.format(mqtt_topic), payload=Pressure, retain=True)
-            # mqttc.publish('{}/gas'.format(mqtt_topic), payload=Gas, retain=True)
-
             ts = time.time()*1000
-            currBox = int(hostname.lstrip("wisp"))
-            # mqttc.publish('bsec/iaq_accuracy', payload=json.dumps({"currName" : "bsec_iaq_accuracy", "currBox" : currBox, "currValue" : IAQ_Accuracy, "currTime" : ts}), retain=True)
-            mqttc.publish('bsec/iaq',          payload=json.dumps({"currName" : "bsec_iaq",          "currBox" : currBox, "currValue" : IAQ,          "currTime" : ts}), retain=True)
-            mqttc.publish('bsec/temperature',  payload=json.dumps({"currName" : "bsec_temperature",  "currBox" : currBox, "currValue" : Temperature,  "currTime" : ts}), retain=True)
-            mqttc.publish('bsec/humidity',     payload=json.dumps({"currName" : "bsec_humidity",     "currBox" : currBox, "currValue" : Humidity,     "currTime" : ts}), retain=True)
-            mqttc.publish('bsec/pressure',     payload=json.dumps({"currName" : "bsec_pressure",     "currBox" : currBox, "currValue" : Pressure,     "currTime" : ts}), retain=True)
-            mqttc.publish('bsec/gas',          payload=json.dumps({"currName" : "bsec_gas",          "currBox" : currBox, "currValue" : Gas,          "currTime" : ts}), retain=True)
-            mqttc.publish('bsec/iaq_static',   payload=json.dumps({"currName" : "bsec_iaq_static",   "currBox" : currBox, "currValue" : IAQ_Static,   "currTime" : ts}), retain=True)
-            mqttc.publish('bsec/CO2e',         payload=json.dumps({"currName" : "bsec_CO2e",         "currBox" : currBox, "currValue" : CO2e,         "currTime" : ts}), retain=True)
-            mqttc.publish('bsec/VOCe',         payload=json.dumps({"currName" : "bsec_VOCe",         "currBox" : currBox, "currValue" : VOCe,         "currTime" : ts}), retain=True)
+            mqttc.publish('{}/iaq_accuracy'.format(mqtt_topic), payload=json.dumps({"currName" : "bsec_iaq_accuracy", "currBox" : currBox, "currValue" : IAQ_Accuracy, "currTime" : ts}), retain=True)
+            mqttc.publish('{}/iaq'.format(mqtt_topic),          payload=json.dumps({"currName" : "bsec_iaq",          "currBox" : currBox, "currValue" : IAQ,          "currTime" : ts}), retain=True)
+            mqttc.publish('{}/temperature'.format(mqtt_topic),  payload=json.dumps({"currName" : "bsec_temperature",  "currBox" : currBox, "currValue" : Temperature,  "currTime" : ts}), retain=True)
+            mqttc.publish('{}/humidity'.format(mqtt_topic),     payload=json.dumps({"currName" : "bsec_humidity",     "currBox" : currBox, "currValue" : Humidity,     "currTime" : ts}), retain=True)
+            mqttc.publish('{}/pressure'.format(mqtt_topic),     payload=json.dumps({"currName" : "bsec_pressure",     "currBox" : currBox, "currValue" : Pressure,     "currTime" : ts}), retain=True)
+            mqttc.publish('{}/gas'.format(mqtt_topic),          payload=json.dumps({"currName" : "bsec_gas",          "currBox" : currBox, "currValue" : Gas,          "currTime" : ts}), retain=True)
+            mqttc.publish('{}/iaq_static'.format(mqtt_topic),   payload=json.dumps({"currName" : "bsec_iaq_static",   "currBox" : currBox, "currValue" : IAQ_Static,   "currTime" : ts}), retain=True)
+            mqttc.publish('{}/CO2e'.format(mqtt_topic),         payload=json.dumps({"currName" : "bsec_CO2e",         "currBox" : currBox, "currValue" : CO2e,         "currTime" : ts}), retain=True)
+            mqttc.publish('{}/VOCe'.format(mqtt_topic),         payload=json.dumps({"currName" : "bsec_VOCe",         "currBox" : currBox, "currValue" : VOCe,         "currTime" : ts}), retain=True)
 
-    ## End of Main Loop ##
+            time_str = "'" + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "'"
+            if enable_local:
+               try:
+                  mycursor = mydb.cursor()
+                  sql_str = "INSERT INTO bsec_iaq_accuracy (currBox, currTime, currValue) VALUES (%d, %s, '%s')"    %(currBox, time_str, IAQ_Accuracy)
+                  r = mycursor.execute(sql_str)
+                  sql_str = "INSERT INTO bsec_iaq          (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, IAQ)
+                  r = mycursor.execute(sql_str)
+                  sql_str = "INSERT INTO bsec_temperature  (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, Temperature)
+                  r = mycursor.execute(sql_str)
+                  sql_str = "INSERT INTO bsec_humidity     (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, Humidity)
+                  r = mycursor.execute(sql_str)
+                  sql_str = "INSERT INTO bsec_pressure     (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, Pressure)
+                  r = mycursor.execute(sql_str)
+                  sql_str = "INSERT INTO bsec_gas          (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, Gas)
+                  r = mycursor.execute(sql_str)
+                  sql_str = "INSERT INTO bsec_iaq_static   (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, IAQ_Static)
+                  r = mycursor.execute(sql_str)
+                  sql_str = "INSERT INTO bsec_CO2e         (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, CO2e)
+                  r = mycursor.execute(sql_str)
+                  sql_str = "INSERT INTO bsec_VOCe         (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, VOCe)
+                  r = mycursor.execute(sql_str)
+                  mydb.commit()
+               except:
+                  log.error("Warning: bsec failed to publish payload (internal) {}".format(time_str))
+
+
+   ## End of Main Loop ##
 
     # If we've broken out of the 'for loop' it's because something went very wrong.
     log.error("BSEC-Library encountered an unhandled exception. Terminating.")

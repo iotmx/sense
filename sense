@@ -14,110 +14,86 @@ import adafruit_bme680
 import requests
 import paho.mqtt.publish as publish
 import paho.mqtt.client as mqtt
+import mysql.connector
 from settings import *
 from uartport import *
-from busio import I2C
+from busio    import I2C
+from datetime import datetime
+from socket import gethostname
 
 # Set serial port
 ser = serial.Serial(
-   port = ttyserialport,
+   port     = ttyserialport,
    baudrate = 9600,
-   parity = serial.PARITY_NONE,
+   parity   = serial.PARITY_NONE,
    stopbits = serial.STOPBITS_ONE,
    bytesize = serial.EIGHTBITS,
-   timeout=1.5
+   timeout  = 2
 )
 
-GPIO.setwarnings(False)
+mydb = mysql.connector.connect(
+   host     = "localhost",
+   user     = "wisp",
+   database = "wisp",
+   password = "w1sp#$"
+)
 
-GPIO.setmode(GPIO.BCM)
-GPIO.cleanup()
-GPIO.setup(conPin,  GPIO.OUT)
-GPIO.setup(errPin,  GPIO.OUT)
-GPIO.setup(ackPin,  GPIO.OUT)
-GPIO.setup(mux_s0,  GPIO.OUT)
-GPIO.setup(mux_s1,  GPIO.OUT)
-
-GPIO.output(conPin, GPIO.LOW)
-GPIO.output(errPin, GPIO.LOW)
-GPIO.output(ackPin, GPIO.LOW)
-
-# BME680
-if using_bme680:
-   # Create library object using our Bus I2C port
-   i2c = I2C(board.SCL, board.SDA)
-   bme680 = adafruit_bme680.Adafruit_BME680_I2C(i2c, debug=False)
-
-   # change this to match the location's pressure (hPa) at sea level
-   bme680.sea_level_pressure = 1024
-
-   # You will usually have to add an offset to account for the temperature of
-   # the sensor. This is usually around 5 degrees but varies by use. Use a
-   # separate temperature sensor to calibrate this one.
-   temperature_offset = -5
+mqttc = mqtt.Client()
 
 def ack_blink():
-    GPIO.output(ackPin, GPIO.HIGH)
-    time.sleep(0.1)
-    GPIO.output(ackPin, GPIO.LOW)
+   GPIO.output(ackPin, GPIO.HIGH)
+   time.sleep(0.1)
+   GPIO.output(ackPin, GPIO.LOW)
 
 def err_blink():
-    GPIO.output(errPin, GPIO.HIGH)
-    time.sleep(0.1)
-    GPIO.output(errPin, GPIO.LOW)
-    # time.sleep(0.1)
-    # GPIO.output(errPin, GPIO.HIGH)
-    # time.sleep(0.1)
-    # GPIO.output(errPin, GPIO.LOW)
-    # time.sleep(0.1)
-    # GPIO.output(errPin, GPIO.HIGH)
-    # time.sleep(0.1)
-    # GPIO.output(errPin, GPIO.LOW)
+   GPIO.output(errPin, GPIO.HIGH)
+   time.sleep(0.1)
+   GPIO.output(errPin, GPIO.LOW)
+   # time.sleep(0.1)
+   # GPIO.output(errPin, GPIO.HIGH)
+   # time.sleep(0.1)
+   # GPIO.output(errPin, GPIO.LOW)
+   # time.sleep(0.1)
+   # GPIO.output(errPin, GPIO.HIGH)
+   # time.sleep(0.1)
+   # GPIO.output(errPin, GPIO.LOW)
+
+def get_hostname():
+   hostname = gethostname()
+   if hostname is '' or None:
+      hostname = "localhost"
+   return hostname
 
 def on_connect(mqttc, obj, flags, rc):
-    print("rc: " + str(rc))
+   print("rc: " + str(rc))
 
 def on_disconnect(mqttc, obj, flags, rc):
-    pass
+   pass
 
 def on_message(mqttc, obj, msg):
-    print(msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
-#    try:
-        # r = requests.post(localhosturl, data = json.loads(msg.payload.decode("utf-8")), headers = headers )
-        # print(r.text)
-    if enable_local:
-           try:
-              r = requests.post(localhosturl, data = json.loads(msg.payload.decode("utf-8")), headers = headers )
-              if 'error' in r.text:
-                 err_blink()
-                 print(json.loads(msg.payload.decode("utf-8")))
-                 print(r.text)
-              else:
-                 ack_blink()
-           except:
-              print("Error")
-              err_blink()
-    if enable_external:
-           try:
-              r = requests.post(hosturl,      data = json.loads(msg.payload.decode("utf-8")), headers = headers )
-              if 'error' in r.text:
-                 err_blink()
-                 print(json.loads(msg.payload.decode("utf-8")))
-                 print(r.text)
-              else:
-                 ack_blink()
-           except:
-              print("Error")
-              err_blink()
+   if enable_external:
+      try:
+         r = requests.post(hosturl, data = json.loads(msg.payload.decode("utf-8")), headers = headers )
+         if 'error' in r.text:
+            err_blink()
+            print(r.text)
+            print("Warning: Failed to publish external ", msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
+            # print(msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
+            # print(json.loads(msg.payload.decode("utf-8")))
+         else:
+            ack_blink()
+      except:
+         err_blink()
+         print("Warning: Failed to publish external ", msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
 
 def on_publish(mqttc, obj, mid):
-    print("mid: " + str(mid))
+   print("mid: " + str(mid))
 
 def on_subscribe(mqttc, obj, mid, granted_qos):
-    print("Subscribed: " + str(mid) + " " + str(granted_qos))
+   print("Subscribed: " + str(mid) + " " + str(granted_qos))
 
 def on_log(mqttc, obj, level, string):
-    print(string)
+   print(string)
 
 def is_internet_on():
    try:
@@ -131,9 +107,9 @@ def is_internet_on():
       GPIO.output(errPin, GPIO.LOW)
 
 def bme680_():
-#   if using_bme680:
+      ts = time.time()*1000
+      time_str = "'" + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "'"
       try:
-         ts = time.time()*1000
          currTemperature = bme680.temperature
          currPressure    = bme680.pressure
          currHumidity    = bme680.humidity
@@ -142,29 +118,51 @@ def bme680_():
 
          print("Temperature: {0:0.2f} deg C".format(currTemperature), "Pressure: {0:0.2f} hPa".format(currPressure), "Humidity: {0:0.2f} %".format(currHumidity), "Gas: {} ohm".format(currGas), "Altitude = {0:02f} meters".format(currAltitude))
 
-         payload = [("bme/temperature", json.dumps({"currName" : "temperature", "currBox" : currBox, "currValue" : currTemperature, "currTime" : ts}), 0, False),
-                    (   "bme/pressure", json.dumps({"currName" :    "pressure", "currBox" : currBox, "currValue" :    currPressure, "currTime" : ts}), 0, False),
-                    (   "bme/altitude", json.dumps({"currName" :    "altitude", "currBox" : currBox, "currValue" :    currAltitude, "currTime" : ts}), 0, False),
-                    (   "bme/gas",      json.dumps({"currName" :         "gas", "currBox" : currBox, "currValue" :    currGas,      "currTime" : ts}), 0, False),
-                    (   "bme/humidity", json.dumps({"currName" :    "humidity", "currBox" : currBox, 'currValue' :    currHumidity, 'currTime' : ts}), 0, False)]
-         publish.multiple(payload, hostname="localhost")
+         try:
+            payload = [(   "{}/BME680/temperature_".format(hostname), json.dumps({"currName" : "temperature", "currBox" : currBox, "currValue" : currTemperature, "currTime" : ts}), 0, False),
+                       (   "{}/BME680/pressure_".format(hostname),    json.dumps({"currName" :    "pressure", "currBox" : currBox, "currValue" :    currPressure, "currTime" : ts}), 0, False),
+                       (   "{}/BME680/altitude_".format(hostname),    json.dumps({"currName" :    "altitude", "currBox" : currBox, "currValue" :    currAltitude, "currTime" : ts}), 0, False),
+                       (   "{}/BME680/gas_".format(hostname),         json.dumps({"currName" :         "gas", "currBox" : currBox, "currValue" :    currGas,      "currTime" : ts}), 0, False),
+                       (   "{}/BME680/humidity_".format(hostname),    json.dumps({"currName" :    "humidity", "currBox" : currBox, 'currValue' :    currHumidity, 'currTime' : ts}), 0, False)]
+            publish.multiple(payload, hostname="localhost")
+         except:
+            err_blink()
+            print("Warning: bme680_() failed to publish payload (external) ", time_str)
+
+         if enable_local:
+            try:
+               mycursor = mydb.cursor()
+               sql_str = "INSERT INTO temperature (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currTemperature)
+               r = mycursor.execute(sql_str)
+               sql_str = "INSERT INTO pressure    (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currPressure)
+               r = mycursor.execute(sql_str)
+               sql_str = "INSERT INTO altitude    (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currAltitude)
+               r = mycursor.execute(sql_str)
+               sql_str = "INSERT INTO gas         (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currGas)
+               r = mycursor.execute(sql_str)
+               sql_str = "INSERT INTO humidity    (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currHumidity)
+               r = mycursor.execute(sql_str)
+               mydb.commit()
+            except:
+               err_blink()
+               print("Warning: bme680_() failed to publish payload (internal) ", time_str)
 
       except IOError:
          err_blink()
-         print("Error on bme680_()")
+         print("Warning: bme680_() failed to read sensor ", time_str)
 
 def hpma_():
+      ts = time.time()*1000
+      time_str = "'" + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "'"
       GPIO.output(mux_s0, 1)
       GPIO.output(mux_s1, 0)
       time.sleep(0.5)
-#   if using_hpma:
       if ser.isOpen():
          ser.close()
       ser.open()
       time.sleep(0.1)
-      ts = time.time()*1000
       data=ser.read(32)
-      time.sleep(0.1)
+#      time.sleep(0.1)
       try:
          if data[0] == 66 and data[1] == 77:
             suma = 0
@@ -175,30 +173,44 @@ def hpma_():
                PM10 = int((data[8]*256+data[9])/0.75)
                PM25 = m25 * PM25 + b25
                PM10 = m10 * PM10 + b10
-               print('PM2.5: {} ug/m3'.format(PM25))
-               print('PM10 : {} ug/m3'.format(PM10))
-
+               print('PM2.5: {} ug/m3'.format(PM25), 'PM10 : {} ug/m3'.format(PM10))
                try:
-                  payload = [("hpma/pm25", json.dumps({"currName" : "pm25", "currBox" : currBox, "currValue" : PM25, "currTime" : ts}), 0, False),
-                             ("hpma/pm10", json.dumps({"currName" : "pm10", "currBox" : currBox, "currValue" : PM10, "currTime" : ts}), 0, False)]
+                  payload = [("{}/HPMA115S0/pm25".format(hostname), json.dumps({"currName" : "pm25", "currBox" : currBox, "currValue" : PM25, "currTime" : ts}), 0, False),
+                             ("{}/HPMA115S0/pm10".format(hostname), json.dumps({"currName" : "pm10", "currBox" : currBox, "currValue" : PM10, "currTime" : ts}), 0, False)]
                   publish.multiple(payload, hostname="localhost")
+
                except IOError:
                   err_blink()
-                  print("Error on hpma_(), trying to publish payload")
+                  print("Warning: hpma_(), failed to publish payload (external) ", time_str)
+
+               if enable_local:
+                  try:
+                     mycursor = mydb.cursor()
+                     sql_str = "INSERT INTO pm25 (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, PM25)
+                     r = mycursor.execute(sql_str)
+                     sql_str = "INSERT INTO pm10 (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, PM10)
+                     r = mycursor.execute(sql_str)
+                     mydb.commit()
+                  except:
+                     err_blink()
+                     print("Warning: hpma_(), failed to publish payload (internal) ", time_str)
             else:
-               print("Error on hpma_(), no data")
+               err_blink()
+               print("Warning: hpma_(), no data ", time_str)
          else:
-            print("Error on hpma_(), no data")
+            err_blink()
+            print("Warning: hpma_(), no data ", time_str)
       except Exception as ex:
          err_blink()
-         print("Error on hpma_(), exception on reading")
+         print("Warning: hpma_(), exception on reading ", time_str)
       finally:
          ser.close()
 
 def hcho_():
 #   if using_hcho:
+      ts = time.time()*1000
+      time_str = "'" + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "'"
       try:
-         ts = time.time()*1000
          x = ser.readline()
          print(x)
          # Is Gas name CH2O
@@ -206,46 +218,85 @@ def hcho_():
             ppb = float(ord(x[4])<<8 | ord(x[5]))
             ppm = float(ppb/1000)
             currHCHO = ppm
+            print("HCHO: {0:0.2f} ppm".format(currHCHO)) #Sensor resolution 0.01
             try:
-               payload = [("formaldehyde", json.dumps({"currName" : "formaldehyde", "currBox" : currBox, "currValue" : currHCHO, "currTime" : ts}), 0, False)]
+               payload = [("{}/Gravity/formaldehyde".format(hostname), json.dumps({"currName" : "formaldehyde", "currBox" : currBox, "currValue" : currHCHO, "currTime" : ts}), 0, False)]
                publish.multiple(payload, hostname="localhost")
             except IOError:
                err_blink()
-               print("Error on hcho_(), trying to publish payload")
+               print("Warning: hcho_(), failed to publish payload (external) ", time_str)
 
-            print("HCHO: {0:0.2f} ppm".format(currHCHO)) #Sensor resolution 0.01
+            if enable_local:
+               try:
+                  mycursor = mydb.cursor()
+                  sql_str = "INSERT INTO formaldehyde (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currHCHO)
+                  r = mycursor.execute(sql_str)
+                  mydb.commit()
+               except:
+                  err_blink()
+                  print("Warning: hcho_(), failed to publish payload (internal) ", time_str)
 
       except IOError:
          err_blink()
-         print ("Error on hcho_(), exception on reading")
+         print ("Warning: hcho_(), exception on reading")
       except:
          err_blink()
-         print ("Error on hcho_(), exception on reading")
+         print ("Warning: hcho_(), exception on reading")
 
-mqttc = mqtt.Client()
-mqttc.on_message = on_message
-mqttc.on_connect = on_connect
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+GPIO.cleanup()
+GPIO.setup(conPin,  GPIO.OUT)
+GPIO.setup(errPin,  GPIO.OUT)
+GPIO.setup(ackPin,  GPIO.OUT)
+GPIO.setup(mux_s0,  GPIO.OUT)
+GPIO.setup(mux_s1,  GPIO.OUT)
+GPIO.output(conPin, GPIO.LOW)
+GPIO.output(errPin, GPIO.LOW)
+GPIO.output(ackPin, GPIO.LOW)
+
+# BME680
+if using_bme680:
+   # Create library object using our Bus I2C port
+   i2c = I2C(board.SCL, board.SDA)
+   bme680 = adafruit_bme680.Adafruit_BME680_I2C(i2c, debug=False)
+
+   # change this to match the location's pressure (hPa) at sea level
+   bme680.sea_level_pressure = bme_sea_level_pressure
+
+   # You will usually have to add an offset to account for the temperature of
+   # the sensor. This is usually around 5 degrees but varies by use. Use a
+   # separate temperature sensor to calibrate this one.
+   temperature_offset = bme_temperature_offset
+
+hostname = get_hostname()
+
+mqttc.on_message    = on_message
+mqttc.on_connect    = on_connect
 mqttc.on_disconnect = on_disconnect
-mqttc.on_publish = on_publish
-mqttc.on_subscribe = on_subscribe
+mqttc.on_publish    = on_publish
+mqttc.on_subscribe  = on_subscribe
 # Uncomment to enable debug messages
 # mqttc.on_log = on_log
 mqttc.connect("localhost", 1883, 60)
-mqttc.subscribe("#", 0)
+mqttc.subscribe("{}/BME680/#".format(hostname), 0)
+mqttc.subscribe("{}/HPMA115S0/#".format(hostname), 0)
+# mqttc.subscribe("{}/Gravity/formaldehyde".format(hostname), 0)
 
 schedule.every(2).seconds.do(is_internet_on)
 if using_bme680:
    schedule.every(st_bme680).minute.at(":00").do(bme680_)
-if using_hcho:
-   schedule.every(st_hcho).minute.at(":00").do(hcho_)
+# if using_hcho:
+#   schedule.every(st_hcho).minute.at(":00").do(hcho_)
 if using_hpma:
    schedule.every(st_hpma).minute.at(":00").do(hpma_)
+
 
 while True:
    try:
       schedule.run_pending()
       mqttc.loop(0.5)
-      time.sleep(0.5)  #number of seconds, can be a float
+      time.sleep(0.5)
    except KeyboardInterrupt:
       err_blink()
    except:
