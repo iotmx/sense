@@ -284,6 +284,7 @@ mqttc.connect("localhost", 1883, 60)
 
 schedule.every(2).seconds.do(is_internet_on)
 if using_bme680:
+#   schedule.every(st_bme680).minute.at(":00").do(bme680_)
    schedule.every(st_bme680).seconds.do(bme680_)
    mqttc.subscribe("{}/BME680/#".format(hostname), 0)
 if using_hpma:
