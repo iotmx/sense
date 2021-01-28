@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+#by Guillermo Ramirez-Prado
+
+import serial
+from settings import *
+from uartport import *
+
+print (ttyserialport)
+# Set serial port
+ser = serial.Serial(
+   port     = ttyserialport,
+   baudrate = 9600,
+   parity   = serial.PARITY_NONE,
+   stopbits = serial.STOPBITS_ONE,
+   bytesize = serial.EIGHTBITS,
+   timeout  = 2
+)
+
+while True:
+#      GPIO.output(mux_s0, mux_s0_hcho)
+#      GPIO.output(mux_s1, mux_s1_hcho)
+#      time.sleep(0.5)
+
+      if ser.isOpen():
+         ser.close()
+      ser.open()
+      try:
+         x = ser.read(size=9)
+#         x = ser.readline()
+         if x[1]==23:
+            ppb = float(x[4]<<8 | x[5])
+            ppm = float(ppb/1000)
+            currHCHO = ppm
+            print("HCHO: {0:0.2f} ppm".format(currHCHO)) #Sensor resolution 0.01
+
+      except:
+         pass
+         # print ("Warning: hcho_(), exception on reading")
+      finally:
+         ser.close()
+

@@ -49,14 +49,6 @@ def err_blink():
    GPIO.output(errPin, GPIO.HIGH)
    time.sleep(0.1)
    GPIO.output(errPin, GPIO.LOW)
-   # time.sleep(0.1)
-   # GPIO.output(errPin, GPIO.HIGH)
-   # time.sleep(0.1)
-   # GPIO.output(errPin, GPIO.LOW)
-   # time.sleep(0.1)
-   # GPIO.output(errPin, GPIO.HIGH)
-   # time.sleep(0.1)
-   # GPIO.output(errPin, GPIO.LOW)
 
 def get_hostname():
    hostname = gethostname()
@@ -78,8 +70,6 @@ def on_message(mqttc, obj, msg):
             err_blink()
             print(r.text)
             print("Warning: Failed to publish external ", msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
-            # print(msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
-            # print(json.loads(msg.payload.decode("utf-8")))
          else:
             ack_blink()
       except:
@@ -132,37 +122,37 @@ def bme680_():
          if enable_local:
             try:
                mycursor = mydb.cursor()
-               sql_str = "INSERT INTO temperature (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currTemperature)
+               sql_str = "INSERT INTO temperature_ (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currTemperature)
                r = mycursor.execute(sql_str)
-               sql_str = "INSERT INTO pressure    (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currPressure)
+               sql_str = "INSERT INTO pressure_    (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currPressure)
                r = mycursor.execute(sql_str)
-               sql_str = "INSERT INTO altitude    (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currAltitude)
+               sql_str = "INSERT INTO altitude_    (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currAltitude)
                r = mycursor.execute(sql_str)
-               sql_str = "INSERT INTO gas         (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currGas)
+               sql_str = "INSERT INTO gas_         (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currGas)
                r = mycursor.execute(sql_str)
-               sql_str = "INSERT INTO humidity    (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currHumidity)
+               sql_str = "INSERT INTO humidity_    (currBox, currTime, currValue) VALUES (%d, %s, %0.2f)" %(currBox, time_str, currHumidity)
                r = mycursor.execute(sql_str)
                mydb.commit()
             except:
                err_blink()
-               print("Warning: bme680_() failed to publish payload (internal) ", time_str)
-
+               print("Warning: bme680_() failed to write on local database ", time_str)
       except IOError:
          err_blink()
          print("Warning: bme680_() failed to read sensor ", time_str)
+      except:
+         err_blink()
+         print("Warning: bme680_() exception ", time_str)
 
 def hpma_():
       ts = time.time()*1000
       time_str = "'" + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "'"
-      GPIO.output(mux_s0, 1)
-      GPIO.output(mux_s1, 0)
-      time.sleep(0.5)
+      GPIO.output(mux_s0, mux_s0_hpma)
+      GPIO.output(mux_s1, mux_s1_hpma)
+#      time.sleep(0.1)
       if ser.isOpen():
          ser.close()
       ser.open()
-      time.sleep(0.1)
       data=ser.read(32)
-#      time.sleep(0.1)
       try:
          if data[0] == 66 and data[1] == 77:
             suma = 0
@@ -182,6 +172,9 @@ def hpma_():
                except IOError:
                   err_blink()
                   print("Warning: hpma_(), failed to publish payload (external) ", time_str)
+               except:
+                  err_blink()
+                  print("Warning: hpma_() exception ", time_str)
 
                if enable_local:
                   try:
@@ -200,22 +193,26 @@ def hpma_():
          else:
             err_blink()
             print("Warning: hpma_(), no data ", time_str)
-      except Exception as ex:
+      except:
          err_blink()
          print("Warning: hpma_(), exception on reading ", time_str)
       finally:
          ser.close()
 
 def hcho_():
-#   if using_hcho:
       ts = time.time()*1000
       time_str = "'" + datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "'"
+      GPIO.output(mux_s0, mux_s0_hcho)
+      GPIO.output(mux_s1, mux_s1_hcho)
+#      time.sleep(0.1)
+      if ser.isOpen():
+         ser.close()
+      ser.open()
       try:
-         x = ser.readline()
-         print(x)
-         # Is Gas name CH2O
-         if x[1]=='\x17':
-            ppb = float(ord(x[4])<<8 | ord(x[5]))
+         x = ser.read(size=9)
+#         if x[1]=='\x17':
+         if x[1]==23:
+            ppb = float(x[4]<<8 | x[5])
             ppm = float(ppb/1000)
             currHCHO = ppm
             print("HCHO: {0:0.2f} ppm".format(currHCHO)) #Sensor resolution 0.01
@@ -225,6 +222,9 @@ def hcho_():
             except IOError:
                err_blink()
                print("Warning: hcho_(), failed to publish payload (external) ", time_str)
+            except:
+               err_blink()
+               print("Warning: hcho_() exception ", time_str)
 
             if enable_local:
                try:
@@ -242,6 +242,8 @@ def hcho_():
       except:
          err_blink()
          print ("Warning: hcho_(), exception on reading")
+      finally:
+         ser.close()
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
@@ -279,24 +281,23 @@ mqttc.on_subscribe  = on_subscribe
 # Uncomment to enable debug messages
 # mqttc.on_log = on_log
 mqttc.connect("localhost", 1883, 60)
-mqttc.subscribe("{}/BME680/#".format(hostname), 0)
-mqttc.subscribe("{}/HPMA115S0/#".format(hostname), 0)
-# mqttc.subscribe("{}/Gravity/formaldehyde".format(hostname), 0)
 
 schedule.every(2).seconds.do(is_internet_on)
 if using_bme680:
-   schedule.every(st_bme680).minute.at(":00").do(bme680_)
-# if using_hcho:
-#   schedule.every(st_hcho).minute.at(":00").do(hcho_)
+   schedule.every(st_bme680).seconds.do(bme680_)
+   mqttc.subscribe("{}/BME680/#".format(hostname), 0)
 if using_hpma:
-   schedule.every(st_hpma).minute.at(":00").do(hpma_)
-
+   schedule.every(st_hpma).seconds.do(hpma_)
+   mqttc.subscribe("{}/HPMA115S0/#".format(hostname), 0)
+if using_hcho:
+   schedule.every(st_hcho).seconds.do(hcho_)
+   mqttc.subscribe("{}/Gravity/#".format(hostname), 0)
 
 while True:
    try:
       schedule.run_pending()
       mqttc.loop(0.5)
-      time.sleep(0.5)
+      time.sleep(0.2)
    except KeyboardInterrupt:
       err_blink()
    except:
