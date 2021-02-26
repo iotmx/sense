@@ -31,13 +31,13 @@ headers                  = {'Content-type':'application/x-www-form-urlencoded'}
 
 # Port where HPMA sensor is connected
 # (0,1) HPMA jack
-mux_s0_hpma              = 1
 mux_s1_hpma              = 0
+mux_s0_hpma              = 1
 # Port where HCHO sensor is connected
 # (0,0) J4, MRX0
 # (1,0) HCHO jack
+mux_s1_hcho              = 1
 mux_s0_hcho              = 0
-mux_s1_hcho              = 0
 
 # Parameters, coefficients and initial conditions
 
